@@ -6,6 +6,7 @@
   <a href="#-sections-of-the-website">Sections</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-theme-modes">Theme Modes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-available-languages">Available Languages</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project-status">Project Status</a>
 </p>
 
@@ -15,7 +16,7 @@
 ## 📌 About the Website
 This website was created to showcase my profile as a developer, including information about myself, my graduation thesis, my skills, projects, and contact information.
 
-### 📂 Sections of the Website
+## 📂 Sections of the Website
 - **About**: A little bit about me and my journey.
 - **Thesis**: Information about my final graduation project.
 - **Skills**: Technologies and tools I am proficient in.
@@ -32,5 +33,9 @@ The website will be available in two languages:
 
 ## 🚧 Project Status
 Currently, the website is under development and may receive frequent updates.
+
+## License
+
+[MIT LICENSE](LICENSE)
 
 ---
