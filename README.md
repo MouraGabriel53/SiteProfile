@@ -34,8 +34,7 @@ The website will be available in two languages:
 ## 🚧 Project Status
 Currently, the website is under development and may receive frequent updates.
 
-## License
-
+## ⚖ License
 [MIT LICENSE](LICENSE)
 
 ---
