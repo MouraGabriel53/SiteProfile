@@ -1,30 +1,36 @@
-# Meu Site de Perfil - Gabriel Moura
+<h1 align="center">🌐 My Profile Website - Gabriel Moura</h1>
 
-Bem-vindo ao meu site de perfil de desenvolvedor! 🚀
+<p align="center">
+  <a href="#-access-the-website">Access the Website</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-about-the-website">About the Website</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sections-of-the-website">Sections</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-theme-modes">Theme Modes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-available-languages">Available Languages</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project-status">Project Status</a>
+</p>
 
-## 🌍 Acesse o Site
-🔗 [Clique aqui para acessar](https://mouragabriel53.github.io/SiteProfile/)
+## 🌍 Access the Website
+🔗 [Click here to access](https://mouragabriel53.github.io/SiteProfile/)
 
-## 📌 Sobre o Site
-Este site foi criado para apresentar meu perfil como desenvolvedor, incluindo informações sobre mim, meu TCC, minhas habilidades, projetos e formas de contato.
+## 📌 About the Website
+This website was created to showcase my profile as a developer, including information about myself, my graduation thesis, my skills, projects, and contact information.
 
-### 📂 Seções do Site
-- **Sobre**: Um pouco sobre mim e minha trajetória.
-- **TCC**: Informações sobre meu trabalho de conclusão de curso.
-- **Skills**: Tecnologias e ferramentas que domino.
-- **Projetos**: Alguns dos projetos que desenvolvi.
-- **Contato**: Como você pode me encontrar.
+### 📂 Sections of the Website
+- **About**: A little bit about me and my journey.
+- **Thesis**: Information about my final graduation project.
+- **Skills**: Technologies and tools I am proficient in.
+- **Projects**: Some of the projects I have developed.
+- **Contact**: How you can get in touch with me.
 
-## 🌗 Modos de Tema
-O site suportará os modos **Dark Mode** e **Light Mode**, permitindo que você escolha o tema que mais gostar.
+## 🌗 Theme Modes
+The website will support both **Dark Mode** and **Light Mode**, allowing you to choose the theme you prefer.
 
-## 🌎 Idiomas Disponíveis
-O site estará disponível em dois idiomas:
-- 🇧🇷 Português (pt-BR)
-- 🇺🇸 Inglês (en-US)
+## 🌎 Available Languages
+The website will be available in two languages:
+- 🇧🇷 Portuguese (pt-BR)
+- 🇺🇸 English (en-US)
 
-## 🚧 Status do Projeto
-Atualmente, o site está em desenvolvimento e pode sofrer atualizações frequentes.
+## 🚧 Project Status
+Currently, the website is under development and may receive frequent updates.
 
 ---
-✉️ Sinta-se à vontade para me contatar e deixar feedbacks!
