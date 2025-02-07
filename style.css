@@ -20,7 +20,7 @@ body {
   display: flex;
   width: auto;
   height: 81px;
-  background-color: var(--foundation-elefante-light)
+  background-color: var(--foundation-elefante-light);
 }
 
 #options {
@@ -64,5 +64,5 @@ body {
 }
 
 #button-language {
-   margin-left: auto;
+  margin-left: auto;
 }
