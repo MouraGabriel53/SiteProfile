@@ -65,6 +65,10 @@ body {
   margin-left: auto;
 }
 
+#button-mode {
+  /*Teste*/
+}
+
 /*COVER*/
 
 #cover-article {
@@ -99,17 +103,6 @@ body {
 
 /*ABOUT*/
 
-#about-article {
-  display: flex;
-  height: 720px;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: 30px 30px 0px 0px;
-  background: url(./assets/quadro-preto.png) lightgray 50% / cover no-repeat;
-}
-
-/* Container principal do artigo */
 #about-article {
   display: flex;
   height: 720px;
@@ -164,5 +157,4 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
-  text-align: justify;
 }
