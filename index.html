@@ -23,7 +23,11 @@
     <header id="header-header">
       <nav>
         <div id="nav-logo">
-          <img src="./assets/logo-dark-circule.svg" alt="Logo" />
+          <img
+            id="profile-img"
+            src="./assets/logo-dark-circule.svg"
+            alt="Logo"
+          />
           <h1>Gabriel Moura</h1>
         </div>
         <div id="nav-options">
@@ -33,9 +37,14 @@
           <a href="">Skills</a>
           <a href="">Contato</a>
         </div>
-        <div id="nav-buttons">
-          <span id="button-language"></span>
-          <span id="button-mode"></span>
+        <div id="nav-button">
+          <button id="nav-button-language" onclick="toggleLanguage()">
+            <img src="./assets/br.png" alt="Bandeira Brasil" />
+            <span>PT</span>
+          </button>
+          <button id="nav-button-mode" onclick="toggleMode()">
+            <span></span>
+          </button>
         </div>
       </nav>
     </header>
@@ -90,5 +99,6 @@
         </div>
       </section>
     </article>
+    <script src="./scripts.js"></script>
   </body>
 </html>
