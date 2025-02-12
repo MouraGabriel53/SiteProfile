@@ -5,6 +5,7 @@
 }
 
 :root {
+  /*Utilize this colors as patern*/
   --foundation-elefante-light: rgba(249, 249, 247, 1);
   --foundation-elefante-normal: rgba(196, 191, 178, 1);
   --foundation-elefante-dark-active: rgba(22, 21, 20, 1);
@@ -12,7 +13,10 @@
 }
 
 .dark {
-  background: var(--foundation-elefante-dark-hover);
+  --foundation-elefante-light: rgba(49, 48, 45, 1);
+  --foundation-elefante-normal: rgba(22, 21, 20, 1);
+  --foundation-elefante-dark-active: rgba(196, 191, 178, 1);
+  --foundation-elefante-dark-hover: rgba(249, 249, 247, 1);
 }
 
 body {
@@ -80,9 +84,53 @@ body {
   background: var(--foundation-elefante-light);
 }
 
-#nav-button-language{
+#nav-button-language {
+  display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5px;
+}
+
+#nav-button-language span {
+  color: var(--foundation-elefante-dark-active, #161514);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#nav-button-mode {
+  display: flex;
+  align-items: center;
+
+  background: var(--foundation-elefante-normal);
+}
+
+#nav-button-mode span {
+  display: flex;
+  width: 40px;
+  height: 40.8px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+
+  border-radius: 50%;
+  background-color: var(--foundation-elefante-normal);
+}
+
+#nav-button-mode img {
+  display: flex;
+  width: 22px;
+  height: 22.44px;
+}
+
+#nav-button-language:hover {
+  background: var(--foundation-elefante-normal);
+}
+
+#nav-options a:hover {
+  color: var(--foundation-elefante-normal);
 }
 
 /*COVER*/
