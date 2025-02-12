@@ -10,7 +10,7 @@
 
   --text-color: rgba(22, 21, 20, 1);
   --text-color-animation: rgba(196, 191, 178, 1);
-  --text-color-about:rgba(249, 249, 247, 1);
+  --text-color-about: rgba(249, 249, 247, 1);
 
   --button-border-color: rgba(196, 191, 178, 1);
   --button-background-color-language: rgba(249, 249, 247, 1);
@@ -24,9 +24,13 @@
 
   --text-color: rgba(249, 249, 247, 1);
   --text-color-animation: rgba(22, 21, 20, 1);
-  --text-color-about:rgba(22, 21, 20, 1);
+  --text-color-about: rgba(22, 21, 20, 1);
 
   --button-background-color-language: rgba(49, 48, 45, 1);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -122,6 +126,7 @@ body {
   display: flex;
   width: 40px;
   height: 40.8px;
+
   align-items: center;
   justify-content: center;
   margin-left: 5px;
@@ -142,6 +147,10 @@ body {
 
 #nav-options a:hover {
   color: var(--text-color-animation);
+}
+
+.dark #nav-button-mode span {
+  margin-left: 51px;
 }
 
 /*COVER*/
