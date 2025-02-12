@@ -5,22 +5,32 @@
 }
 
 :root {
-  /*Utilize this colors as patern*/
-  --foundation-elefante-light: rgba(249, 249, 247, 1);
-  --foundation-elefante-normal: rgba(196, 191, 178, 1);
-  --foundation-elefante-dark-active: rgba(22, 21, 20, 1);
-  --foundation-elefante-dark-hover: rgba(49, 48, 45, 1);
+  --background-color: rgba(249, 249, 247, 1);
+  --about-background: url(./assets/quadro-preto.png);
+
+  --text-color: rgba(22, 21, 20, 1);
+  --text-color-animation: rgba(196, 191, 178, 1);
+  --text-color-about:rgba(249, 249, 247, 1);
+
+  --button-border-color: rgba(196, 191, 178, 1);
+  --button-background-color-language: rgba(249, 249, 247, 1);
+  --button-background-color-mode: rgba(196, 191, 178, 1);
+  --button-background-color-mode-circule: rgba(249, 249, 247, 1);
 }
 
 .dark {
-  --foundation-elefante-light: rgba(49, 48, 45, 1);
-  --foundation-elefante-normal: rgba(22, 21, 20, 1);
-  --foundation-elefante-dark-active: rgba(196, 191, 178, 1);
-  --foundation-elefante-dark-hover: rgba(249, 249, 247, 1);
+  --background-color: rgba(49, 48, 45, 1);
+  --about-background: url(./assets/quadro-branco.png);
+
+  --text-color: rgba(249, 249, 247, 1);
+  --text-color-animation: rgba(22, 21, 20, 1);
+  --text-color-about:rgba(22, 21, 20, 1);
+
+  --button-background-color-language: rgba(49, 48, 45, 1);
 }
 
 body {
-  background: var(--foundation-elefante-light);
+  background: var(--background-color);
 }
 
 /*HEADER*/
@@ -28,7 +38,7 @@ body {
 #header-header {
   display: flex;
   height: 81px;
-  background-color: var(--foundation-elefante-light);
+  background-color: var(--background-color);
 }
 
 #header-header nav {
@@ -50,7 +60,7 @@ body {
 }
 
 #nav-logo h1 {
-  color: var(--foundation-elefante-dark-active);
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 24px;
   font-weight: 900;
@@ -64,7 +74,7 @@ body {
 
 #nav-options a {
   text-decoration: none;
-  color: var(--foundation-elefante-dark-active);
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 16px;
   font-weight: 300;
@@ -80,8 +90,7 @@ body {
   height: 51px;
 
   border-radius: 30px;
-  border: 2px solid var(--foundation-elefante-normal);
-  background: var(--foundation-elefante-light);
+  border: 2px solid var(--button-border-color);
 }
 
 #nav-button-language {
@@ -89,10 +98,12 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5px;
+
+  background: var(--button-background-color-language);
 }
 
 #nav-button-language span {
-  color: var(--foundation-elefante-dark-active, #161514);
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -104,7 +115,7 @@ body {
   display: flex;
   align-items: center;
 
-  background: var(--foundation-elefante-normal);
+  background: var(--button-background-color-mode);
 }
 
 #nav-button-mode span {
@@ -116,7 +127,7 @@ body {
   margin-left: 5px;
 
   border-radius: 50%;
-  background-color: var(--foundation-elefante-normal);
+  background-color: var(--button-background-color-mode-circule);
 }
 
 #nav-button-mode img {
@@ -126,11 +137,11 @@ body {
 }
 
 #nav-button-language:hover {
-  background: var(--foundation-elefante-normal);
+  background: var(--button-background-color-mode);
 }
 
 #nav-options a:hover {
-  color: var(--foundation-elefante-normal);
+  color: var(--text-color-animation);
 }
 
 /*COVER*/
@@ -147,7 +158,7 @@ body {
 }
 
 #cover-section h1 {
-  color: var(--foundation-elefante-dark-active);
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 64px;
   font-style: normal;
@@ -157,7 +168,7 @@ body {
 #cover-section p {
   text-align: right;
 
-  color: var(--foundation-elefante-dark-active);
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
@@ -173,7 +184,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: url(./assets/quadro-preto.png) lightgray 50% / cover no-repeat;
+  background: var(--about-background) lightgray 50% / cover no-repeat;
   border-radius: 30px 30px 0 0;
 }
 /*
@@ -215,7 +226,7 @@ body {
 }
 
 #about-presentation p {
-  color: var(--foundation-elefante-light);
+  color: var(--text-color-about);
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
