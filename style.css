@@ -19,12 +19,16 @@
 
   /*Cover buttons*/
   --text-color-button-resume: rgba(249, 249, 247, 1);
+  --text-color-button-resume-animation: rgba(0, 0, 71, 1);
   --text-color-button-contact: rgba(22, 21, 20, 1);
   --text-color-button-contact-animation: rgba(249, 249, 247, 1);
+
   --button-background-color-resume: rgba(0, 0, 71, 1);
-  --button-background-color-resume-animation: rgba(0, 0, 71, 0.8);
+  --button-background-color-resume-animation: rgba(249, 249, 247, 1);
+
   --button-background-color-contact: rgba(249, 249, 247, 1);
   --button-background-color-contact-animation: rgba(44, 19, 239, 1);
+
   --button-border-color-resume: rgba(0, 0, 71, 1);
   --button-border-color-contact: rgba(44, 19, 239, 1);
 
@@ -264,11 +268,18 @@ body {
 
 #cover-button-resume:hover {
   background-color: var(--button-background-color-resume-animation);
-  border: 2px var(--button-background-color-resume-animation);
+}
+
+#cover-button-resume a:hover {
+  color: var(--text-color-button-resume-animation);
 }
 
 #cover-button-contact:hover {
   background-color: var(--button-background-color-contact-animation);
+}
+
+#cover-button-contact a:hover {
+  color: var(--text-color-button-contact-animation);
 }
 
 /*ABOUT*/
