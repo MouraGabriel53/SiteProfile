@@ -16,12 +16,12 @@ function toggleMode() {
 
 function toggleLanguage() {
   const html = document.documentElement
-  html.classList.toggle("language")
+  html.classList.toggle("language-EN")
 
   const imgLanguage = document.querySelector("#imgLanguage")
   const selectedLanguage = document.querySelector("#selectedLanguage")
 
-  if (html.classList.contains("language")) {
+  if (html.classList.contains("language-EN")) {
     imgLanguage.setAttribute("src", "./assets/eua.png")
     selectedLanguage.innerHTML = "EN"
   } else {
