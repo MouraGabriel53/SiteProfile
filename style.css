@@ -49,12 +49,16 @@
   --button-background-color-language: rgba(49, 48, 45, 1);
 
   /*Cover buttons*/
-  --button-background-color-contact: rgba(49, 48, 45, 1);
+  --text-color-button-resume-animation: rgba(249, 249, 247, 1);
   --text-color-button-contact: rgba(249, 249, 247, 1);
 
+  --button-background-color-resume-animation: rgba(49, 48, 45, 1);
+  --button-background-color-contact: rgba(49, 48, 45, 1);
+
   /*About*/
-  --about-background: url(./assets/quadro-branco.png);
   --text-color-about: rgba(22, 21, 20, 1);
+
+  --about-background: url(./assets/quadro-branco.png);
 }
 
 html {
@@ -300,6 +304,22 @@ body {
 }
 
 #cover-button-contact:hover a {
+  color: var(--text-color-button-contact-animation);
+}
+
+.dark #cover-button-resume:hover {
+  background-color: var(--button-background-color-resume-animation);
+}
+
+.dark #cover-button-resume:hover a {
+  color: var(--text-color-button-resume-animation);
+}
+
+.dark #cover-button-contact:hover {
+  background-color: var(--button-background-color-contact-animation);
+}
+
+.dark #cover-button-contact:hover a {
   color: var(--text-color-button-contact-animation);
 }
 
