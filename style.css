@@ -118,7 +118,7 @@ body {
   height: 51px;
 
   border-radius: 30px;
-  border: 2px var(--button-border-color);
+  border: 2px solid var(--button-border-color);
 }
 
 #nav-button-language {
