@@ -133,6 +133,8 @@ body {
 
   border-radius: 50%;
   background-color: var(--button-background-color-mode-circule);
+
+  transition: 350ms;
 }
 
 #nav-button-mode img {
@@ -150,6 +152,7 @@ body {
 }
 
 .dark #nav-button-mode span {
+  transition: 350ms;
   margin-left: 51px;
 }
 

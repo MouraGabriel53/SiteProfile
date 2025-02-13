@@ -2,7 +2,7 @@ function toggleMode() {
   const html = document.documentElement
   html.classList.toggle("dark")
 
-  const imgProfile = document.querySelector("#profile-img")
+  const imgProfile = document.querySelector("#imgProfile")
   const iconMode = document.querySelector("#iconMode")
 
   if (html.classList.contains("dark")) {
@@ -11,5 +11,21 @@ function toggleMode() {
   } else {
     imgProfile.setAttribute("src", "./assets/logo-dark.png")
     iconMode.setAttribute("src", "./assets/day-icon.svg")
+  }
+}
+
+function toggleLanguage() {
+  const html = document.documentElement
+  html.classList.toggle("language")
+
+  const imgLanguage = document.querySelector("#imgLanguage")
+  const selectedLanguage = document.querySelector("#selectedLanguage")
+
+  if (html.classList.contains("language")) {
+    imgLanguage.setAttribute("src", "./assets/eua.png")
+    selectedLanguage.innerHTML = "EN"
+  } else {
+    imgLanguage.setAttribute("src", "./assets/br.png")
+    selectedLanguage.innerHTML = "PT"
   }
 }
