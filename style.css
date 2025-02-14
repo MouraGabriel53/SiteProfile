@@ -36,7 +36,11 @@
   /*About*/
   --about-background: url(./assets/quadro-preto.png);
   --text-color-about: rgba(249, 249, 247, 1);
-  --text-color-about-title: rgba(44, 19, 239, 1);
+  --text-color-about-title: linear-gradient(
+    to top,
+    rgba(249, 249, 247, 1) 50%,
+    rgba(22, 21, 20, 1) 50%
+  );
 }
 
 .dark {
@@ -58,7 +62,11 @@
 
   /*About*/
   --text-color-about: rgba(22, 21, 20, 1);
-
+  --text-color-about-title: linear-gradient(
+    to top,
+    rgba(22, 21, 20, 1) 50%,
+    rgba(249, 249, 247, 1) 50%
+  );
   --about-background: url(./assets/quadro-branco.png);
 }
 
@@ -347,7 +355,10 @@ body {
 }
 
 #about-header h1 {
-  color: var(--text-color-about-title);
+  background-image: var(--text-color-about-title);
+  background-clip: text;
+  color: transparent;
+
   font-family: Poppins;
   font-size: 128px;
   font-style: normal;
