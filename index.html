@@ -28,7 +28,7 @@
         </div>
         <div id="nav-options">
           <a href="#about-article">Sobre</a>
-          <a href="">Trabalhos</a>
+          <a href="#works-article">Trabalhos</a>
           <a href="">Projetos</a>
           <a href="">Habilidades</a>
           <a href="">Contato</a>
@@ -51,24 +51,24 @@
       <section id="cover-section">
         <h1>Olá, eu sou Gabriel Moura.</h1>
         <p>Just code!</p>
-        <ul id="cover-buttons">
-          <li id="cover-button-resume">
+        <div>
+          <button id="cover-button-resume">
             <a href="./assets/br.png" target="_blank">Baixar currículo</a>
-          </li>
-          <li id="cover-button-contact">
+          </button>
+          <button id="cover-button-contact">
             <a href="./assets/br.png" target="_blank">Entrar em contato</a>
-          </li>
-        </ul>
+          </button>
+        </div>
       </section>
     </article>
     <!--About-->
     <article id="about-article">
-      <header id="about-header">
-        <h1>SOBRE</h1>
-      </header>
       <section id="about-section">
+        <header>
+          <h1>SOBRE</h1>
+        </header>
         <img src="./assets/foto.png" alt="Gabriel Moura's photo" />
-        <div id="about-presentation">
+        <div>
           <p>
             👋 Seja muito bem-vindo ao meu site! Deixa eu te contar um pouco
             sobre mim.
@@ -104,26 +104,33 @@
         </div>
       </section>
     </article>
+    <!--Works-->
     <article id="works-article">
       <section id="works-section">
-        <header works-header>
-          <h1>Trabalhos</h1>
-        </header>
-        <div works-title>
+        <header>
           <h1>Trabalho</h1>
           <h2>de Conclusão de Curso</h2>
-        </div>
-        <div works-title-project>
-          <h3>Sistema de Produção de Filamentos Sustentáveis</h3>
-        </div>
+        </header>
         <div id="works-container">
-          <p>Textos</p>
-          <img src="" alt="3D project" />
-          <span>Barra separadora</span>
+          <header>
+            <h3>Sistema de Produção de Filamentos Sustentáveis</h3>
+          </header>
+          <div>
+            <p>Textos</p>
+            <img src="" alt="3D project" />
+            <span>Barra separadora</span>
+          </div>
+        </div>
+
+        <!--
+        <div id="works-container">
+
+          
         </div>
         <button>
-          <a href="">Ver artigo completo</a>
+          <a href="/assets/br.png" target="_blank">Ver artigo completo</a>
         </button>
+        -->
       </section>
     </article>
     <script src="./scripts.js"></script>
