@@ -43,10 +43,19 @@
   );
 
   /*WORKS*/
+  --text-color-works: rgba(22, 21, 20, 1);
+
   --works-background: rgba(196, 191, 178, 1);
   --works-box-shadow: rgba(0, 0, 0, 0.25);
 
-  --text-color-works: rgba(22, 21, 20, 1);
+  --works-separator-bar-color: rgba(249, 249, 247, 1);
+
+  --text-color-button-article: rgba(249, 249, 247, 1);
+  --text-color-button-article-animation: rgba(0, 0, 71, 1);
+
+  --button-background-color-article: rgba(0, 0, 71, 1);
+  --button-background-color-article-animation: rgba(196, 191, 178, 1);
+  --button-border-color-artile: rgba(0, 0, 71, 1);
 }
 
 .dark {
@@ -76,6 +85,7 @@
   );
 
   /*WORKS*/
+  --text-color-works: rgba(22, 21, 20, 1);
   --works-box-shadow: rgba(255, 255, 255, 0.25);
 }
 
@@ -247,7 +257,6 @@ body {
   flex-direction: column;
   gap: 20px;
   margin-top: 70px;
-  list-style: none;
 }
 
 #cover-section button {
@@ -453,20 +462,14 @@ body {
 }
 
 #works-container {
-  display: block;
-  width: auto;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
 }
 
-#works-container header {
-  display: block;
-  width: 603px;
-  height: 36px;
-  margin: 56px auto 0px;
-  gap: 40px;
-}
-
-#works-container header h3 {
+#works-container h1 {
   color: var(--text-color-works);
   text-align: center;
   font-family: Poppins;
@@ -476,13 +479,71 @@ body {
   line-height: normal;
 }
 
-#works-container div {
-  display: block;
-  flex-direction: column;
-  gap: 20px;
+#works-container-elements {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  padding: 32px;
+  gap: 32px;
 }
 
-/*#nav-button-mode span:hover{
-  outline: 8px solid var(--highlight-color);
-}*/
+#works-container-elements div p {
+  color: var(--text-color-works);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#works-container-elements img {
+  width: 509px;
+  height: 423.833px;
+
+  border-radius: 30px;
+}
+
+#works-container span {
+  width: 175px;
+  height: 8px;
+  margin-right: 841px;
+  margin-top: -20px;
+
+  background: var(--works-separator-bar-color);
+}
+
+#works-container button {
+  width: 360px;
+  height: 80px;
+  margin-top: 50px;
+
+  border-radius: 30px;
+  background: var(--button-background-color-article);
+}
+
+#works-container a {
+  color: var(--text-color-button-article);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+#works-container button {
+  transition: background-color 0.3s ease;
+}
+
+#works-container a {
+  transition: color 0.3s ease;
+}
+
+#works-container button:hover {
+  background-color: var(--button-background-color-article-animation);
+}
+
+#works-container:hover a {
+  color: var(--text-color-button-article-animation);
+}
