@@ -71,7 +71,6 @@ html {
 
 body {
   background-color: var(--body-background);
-  overflow-x: hidden;
 }
 
 /*HEADER*/
@@ -217,7 +216,14 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+
+  border-right: 4px solid;
+  width: 878px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(25), blinking 0.5s infinite step-end alternate;
 }
+
 #cover-section p {
   text-align: right;
 
@@ -588,4 +594,16 @@ body {
 
   border-radius: 30px;
   background: var(--cards-background);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
 }
