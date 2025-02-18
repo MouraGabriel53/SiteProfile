@@ -85,8 +85,17 @@
   );
 
   /*WORKS*/
-  --text-color-works: rgba(22, 21, 20, 1);
+  --text-color-works: rgba(249, 249, 247, 1);
+
+  --works-background: rgba(69, 67, 62, 1);
+
+  --works-separator-bar-color: rgba(196, 191, 178, 1);
   --works-box-shadow: rgba(255, 255, 255, 0.25);
+
+  --text-color-button-article-animation: rgba(249, 249, 247, 1);
+
+  --button-background-color-article-animation: rgba(69, 67, 62, 1);
+  --button-border-color-artile: rgba(0, 0, 71, 1);
 }
 
 html {
@@ -207,6 +216,7 @@ body {
 
 #nav-button-language:hover {
   background-color: var(--button-background-color-mode);
+  cursor: pointer;
 }
 
 #nav-options a:hover {
@@ -321,6 +331,7 @@ body {
 
 #cover-button-resume:hover {
   background-color: var(--button-background-color-resume-animation);
+  cursor: pointer;
 }
 
 #cover-button-resume:hover a {
@@ -329,25 +340,10 @@ body {
 
 #cover-button-contact:hover {
   background-color: var(--button-background-color-contact-animation);
+  cursor: pointer;
 }
 
 #cover-button-contact:hover a {
-  color: var(--text-color-button-contact-animation);
-}
-
-.dark #cover-button-resume:hover {
-  background-color: var(--button-background-color-resume-animation);
-}
-
-.dark #cover-button-resume:hover a {
-  color: var(--text-color-button-resume-animation);
-}
-
-.dark #cover-button-contact:hover {
-  background-color: var(--button-background-color-contact-animation);
-}
-
-.dark #cover-button-contact:hover a {
   color: var(--text-color-button-contact-animation);
 }
 
@@ -536,6 +532,7 @@ body {
   margin-top: 20px;
 
   border-radius: 30px;
+  border: 2px solid var(--button-border-color-artile);
   background: var(--button-background-color-article);
 }
 
@@ -565,8 +562,62 @@ body {
 
 #works-button-article:hover {
   background-color: var(--button-background-color-article-animation);
+  cursor: pointer;
 }
 
 #works-button-article:hover a {
   color: var(--text-color-button-article-animation);
+}
+
+/*SKILLS*/
+
+#skills-article {
+  width: auto;
+  height: 720px;
+}
+
+#skills-section {
+  display: block;
+}
+
+#skills-section header {
+  display: block;
+  width: 548px;
+  height: 155px;
+  margin: 0px auto 0px 90px;
+}
+
+#skills-section header h1 {
+  color: var(--foundation-elefante-dark-active, #161514);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#skills-section header h2 {
+  color: var(--foundation-elefante-dark-active, #161514);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+}
+
+#skills-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 16px;
+}
+
+#skills-container div {
+  width: 350px;
+  height: 450px;
+
+  border-radius: 30px;
+  background: var(--works-background);
 }
