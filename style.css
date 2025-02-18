@@ -5,97 +5,64 @@
 }
 
 :root {
-  /*General*/
-  --background-color: rgba(249, 249, 247, 1);
-  --text-color: rgba(22, 21, 20, 1);
-  --text-color-animation: rgba(196, 191, 178, 1);
-  --highlight-color: rgba(0, 0, 0, 0.2);
-
-  /*Nav buttons*/
-  --button-border-color: rgba(196, 191, 178, 1);
-  --button-background-color-language: rgba(249, 249, 247, 1);
-  --button-background-color-mode: rgba(196, 191, 178, 1);
-  --button-background-color-mode-circule: rgba(249, 249, 247, 1);
-
-  /*Cover buttons*/
-  --text-color-button-resume: rgba(249, 249, 247, 1);
-  --text-color-button-resume-animation: rgba(0, 0, 71, 1);
-
-  --text-color-button-contact: rgba(22, 21, 20, 1);
-  --text-color-button-contact-animation: rgba(249, 249, 247, 1);
-
-  --button-background-color-resume: rgba(0, 0, 71, 1);
-  --button-background-color-resume-animation: rgba(249, 249, 247, 1);
-
-  --button-background-color-contact: rgba(249, 249, 247, 1);
-  --button-background-color-contact-animation: rgba(44, 19, 239, 1);
-
-  --button-border-color-resume: rgba(0, 0, 71, 1);
-  --button-border-color-contact: rgba(44, 19, 239, 1);
-
-  /*About*/
+  /*Backgrounds*/
+  --body-background: rgba(252, 252, 251, 1);
   --about-background: url(./assets/quadro-preto.png);
-  --text-color-about: rgba(249, 249, 247, 1);
+
+  /*Text*/
+  --text-color-light: rgba(249, 249, 247, 1);
+  --text-color-dark: rgba(22, 21, 20, 1);
+  --text-color-animation: rgba(196, 191, 178, 1);
   --text-color-about-title: linear-gradient(
     to top,
     rgba(249, 249, 247, 1) 50%,
     rgba(22, 21, 20, 1) 50%
   );
 
-  /*WORKS*/
-  --text-color-works: rgba(22, 21, 20, 1);
+  /*Objects*/
+  --cards-background: rgba(196, 191, 178, 1);
+  --separator-bar: rgba(249, 249, 247, 1);
+  --box-shadow: rgba(0, 0, 0, 0.25);
 
-  --works-background: rgba(196, 191, 178, 1);
-  --works-box-shadow: rgba(0, 0, 0, 0.25);
+  /*Buttons*/
+  --button-text-light: rgba(249, 249, 247, 1);
+  --button-text-dark: rgba(22, 21, 20, 1);
+  --button-text-dark-purple: rgba(0, 0, 71, 1);
 
-  --works-separator-bar-color: rgba(249, 249, 247, 1);
-
-  --text-color-button-article: rgba(249, 249, 247, 1);
-  --text-color-button-article-animation: rgba(0, 0, 71, 1);
-
-  --button-background-color-article: rgba(0, 0, 71, 1);
-  --button-background-color-article-animation: rgba(196, 191, 178, 1);
-  --button-border-color-artile: rgba(0, 0, 71, 1);
+  --button-light-gray: rgba(196, 191, 178, 1);
+  --button-light-purple: rgba(44, 19, 239, 1);
+  --button-dark-purple: rgba(0, 0, 71, 1);
 }
 
 .dark {
-  /*General*/
-  --background-color: rgba(49, 48, 45, 1);
-  --text-color: rgba(249, 249, 247, 1);
-  --text-color-animation: rgba(22, 21, 20, 1);
-  --highlight-color: rgba(255, 255, 255, 0.2);
-
-  /*Nav buttons*/
-  --button-background-color-language: rgba(49, 48, 45, 1);
-
-  /*Cover buttons*/
-  --text-color-button-resume-animation: rgba(249, 249, 247, 1);
-  --text-color-button-contact: rgba(249, 249, 247, 1);
-
-  --button-background-color-resume-animation: rgba(49, 48, 45, 1);
-  --button-background-color-contact: rgba(49, 48, 45, 1);
-
-  /*About*/
+  /*Backgrounds*/
+  --body-background: rgba(49, 48, 45, 1);
   --about-background: url(./assets/quadro-branco.png);
-  --text-color-about: rgba(22, 21, 20, 1);
+
+  /*Text*/
+  --text-color-light: rgba(22, 21, 20, 1);
+  --text-color-dark: rgba(249, 249, 247, 1);
+  --text-color-animation: rgba(196, 191, 178, 1);
+  --text-color-button: rgba(249, 249, 247, 1);
   --text-color-about-title: linear-gradient(
     to top,
     rgba(22, 21, 20, 1) 50%,
     rgba(249, 249, 247, 1) 50%
   );
 
-  /*WORKS*/
-  --text-color-works: rgba(249, 249, 247, 1);
+  /*Objects*/
+  --cards-background: rgba(69, 67, 62, 1);
+  --separator-bar: rgba(249, 249, 247, 1);
+  --box-shadow: rgba(255, 255, 255, 0.25);
 
-  --works-background: rgba(69, 67, 62, 1);
+  /*Buttons*/
+  --button-text-light: rgba(249, 249, 247, 1);
+  --button-text-dark: rgba(249, 249, 247, 1);
+  --button-text-dark-purple: rgba(249, 249, 247, 1);
 
-  --works-separator-bar-color: rgba(196, 191, 178, 1);
-  --works-box-shadow: rgba(255, 255, 255, 0.25);
-
-  --text-color-button-article-animation: rgba(249, 249, 247, 1);
-
-  --button-background-color-article-animation: rgba(69, 67, 62, 1);
-  --button-border-color-artile: rgba(0, 0, 71, 1);
+  --button-light-gray: rgba(196, 191, 178, 1);
+  --button-light-purple: rgba(44, 19, 239, 1);
+  --button-dark-purple: rgba(0, 0, 71, 1);
 }
 
 html {
@@ -103,7 +70,7 @@ html {
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--body-background);
   overflow-x: hidden;
 }
 
@@ -115,7 +82,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-color: var(--background-color);
+  background-color: var(--body-background);
 }
 
 #header-header nav {
@@ -135,7 +102,7 @@ body {
 }
 
 #nav-logo h1 {
-  color: var(--text-color);
+  color: var(--text-color-dark);
   font-family: Poppins;
   font-size: 24px;
   font-weight: 900;
@@ -149,7 +116,7 @@ body {
 
 #nav-options a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--text-color-dark);
   font-family: Poppins;
   font-size: 16px;
   font-weight: 300;
@@ -165,7 +132,7 @@ body {
   height: 51px;
 
   border-radius: 30px;
-  border: 2px solid var(--button-border-color);
+  border: 2px solid var(--button-light-gray);
 }
 
 #nav-button-language {
@@ -174,11 +141,11 @@ body {
   justify-content: center;
   gap: 5px;
 
-  background-color: var(--button-background-color-language);
+  background-color: transparent;
 }
 
 #nav-button-language span {
-  color: var(--text-color);
+  color: var(--text-color-dark);
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -190,7 +157,7 @@ body {
   display: flex;
   align-items: center;
 
-  background-color: var(--button-background-color-mode);
+  background-color: transparent;
 }
 
 #nav-button-mode span {
@@ -203,7 +170,7 @@ body {
   margin-left: 5px;
 
   border-radius: 50%;
-  background-color: var(--button-background-color-mode-circule);
+  background-color: var(--button-light-gray);
 
   transition: 350ms;
 }
@@ -215,11 +182,12 @@ body {
 }
 
 #nav-button-language:hover {
-  background-color: var(--button-background-color-mode);
+  background-color: var(--button-light-gray);
   cursor: pointer;
 }
 
 #nav-options a:hover {
+  transition: 150ms;
   color: var(--text-color-animation);
 }
 
@@ -243,7 +211,7 @@ body {
 }
 
 #cover-section h1 {
-  color: var(--text-color);
+  color: var(--text-color-dark);
   font-family: Poppins;
   font-size: 64px;
   font-style: normal;
@@ -253,7 +221,7 @@ body {
 #cover-section p {
   text-align: right;
 
-  color: var(--text-color);
+  color: var(--text-color-dark);
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
@@ -279,8 +247,8 @@ body {
 
 #cover-button-resume {
   border-radius: 30px;
-  background-color: var(--button-background-color-resume);
-  border: 2px solid var(--button-border-color-resume);
+  background-color: var(--button-dark-purple);
+  border: 2px solid var(--button-dark-purple);
 }
 
 #cover-button-resume a {
@@ -289,7 +257,7 @@ body {
   align-content: center;
   text-align: center;
 
-  color: var(--text-color-button-resume);
+  color: var(--button-text-light);
   font-family: Poppins;
   font-size: 13px;
   font-style: normal;
@@ -299,9 +267,9 @@ body {
 }
 
 #cover-button-contact {
-  background-color: var(--button-background-color-contact);
   border-radius: 30px;
-  border: 2px solid var(--button-border-color-contact);
+  background-color: transparent;
+  border: 2px solid var(--button-light-purple);
 }
 
 #cover-button-contact a {
@@ -310,11 +278,11 @@ body {
   align-content: center;
   text-align: center;
 
-  color: var(--text-color-button-contact);
+  color: var(--button-text-dark);
   font-family: Poppins;
   font-size: 13px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   line-height: normal;
   text-decoration: none;
 }
@@ -330,21 +298,21 @@ body {
 }
 
 #cover-button-resume:hover {
-  background-color: var(--button-background-color-resume-animation);
+  background-color: transparent;
   cursor: pointer;
 }
 
 #cover-button-resume:hover a {
-  color: var(--text-color-button-resume-animation);
+  color: var(--button-text-dark-purple);
 }
 
 #cover-button-contact:hover {
-  background-color: var(--button-background-color-contact-animation);
+  background-color: var(--button-light-purple);
   cursor: pointer;
 }
 
 #cover-button-contact:hover a {
-  color: var(--text-color-button-contact-animation);
+  color: var(--button-text-light);
 }
 
 /*ABOUT*/
@@ -401,7 +369,7 @@ body {
 }
 
 #about-section div p {
-  color: var(--text-color-about);
+  color: var(--text-color-light);
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
@@ -425,8 +393,8 @@ body {
   top: -60px;
 
   border-radius: 30px;
-  background: var(--works-background);
-  box-shadow: 0px 0px 25px 0px var(--works-box-shadow);
+  background: var(--cards-background);
+  box-shadow: 0px 0px 25px 0px var(--box-shadow);
 }
 
 #works-section header {
@@ -447,7 +415,7 @@ body {
 }
 
 #works-section-header h1 {
-  color: var(--text-color-works);
+  color: var(--text-color-dark);
   text-align: center;
   font-family: Poppins;
   font-size: 128px;
@@ -457,7 +425,7 @@ body {
 }
 
 #works-section-header h2 {
-  color: var(--text-color-works);
+  color: var(--text-color-dark);
   text-align: right;
   font-family: Poppins;
   font-size: 40px;
@@ -482,7 +450,7 @@ body {
 }
 
 #works-container h1 {
-  color: var(--text-color-works);
+  color: var(--text-color-dark);
   text-align: center;
   font-family: Poppins;
   font-size: 24px;
@@ -500,7 +468,7 @@ body {
 }
 
 #works-container-elements div p {
-  color: var(--text-color-works);
+  color: var(--text-color-dark);
   text-align: justify;
   font-family: Poppins;
   font-size: 20px;
@@ -522,7 +490,7 @@ body {
   margin-right: 841px;
   margin-top: -20px;
 
-  background: var(--works-separator-bar-color);
+  background: var(--separator-bar);
 }
 
 #works-button-article {
@@ -532,8 +500,8 @@ body {
   margin-top: 20px;
 
   border-radius: 30px;
-  border: 2px solid var(--button-border-color-artile);
-  background: var(--button-background-color-article);
+  border: 2px solid var(--button-dark-purple);
+  background: var(--button-dark-purple);
 }
 
 #works-button-article a {
@@ -543,7 +511,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  color: var(--text-color-button-article);
+  color: var(--button-text-light);
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
@@ -561,12 +529,12 @@ body {
 }
 
 #works-button-article:hover {
-  background-color: var(--button-background-color-article-animation);
+  background-color: transparent;
   cursor: pointer;
 }
 
 #works-button-article:hover a {
-  color: var(--text-color-button-article-animation);
+  color: var(--button-text-dark-purple);
 }
 
 /*SKILLS*/
@@ -588,7 +556,7 @@ body {
 }
 
 #skills-section header h1 {
-  color: var(--foundation-elefante-dark-active, #161514);
+  color: var(--text-color-dark);
   text-align: center;
   font-family: Poppins;
   font-size: 64px;
@@ -598,7 +566,7 @@ body {
 }
 
 #skills-section header h2 {
-  color: var(--foundation-elefante-dark-active, #161514);
+  color: var(--text-color-dark);
   text-align: right;
   font-family: Poppins;
   font-size: 40px;
@@ -619,5 +587,5 @@ body {
   height: 450px;
 
   border-radius: 30px;
-  background: var(--works-background);
+  background: var(--cards-background);
 }
