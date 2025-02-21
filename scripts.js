@@ -1,16 +1,27 @@
+let elementScroll = document.querySelector("#skills-container")
+let elementContainer = document.querySelector(".skills-container-lang")
+let elementChildren = Array.from(elementContainer.children)
+elementChildren.forEach((item) => {
+  let elementDuplicated = item.cloneNode(true)
+  elementContainer.appendChild(elementDuplicated)
+})
+
 function toggleMode() {
   const html = document.documentElement
   html.classList.toggle("dark")
 
   const imgProfile = document.querySelector("#imgProfile")
   const iconMode = document.querySelector("#iconMode")
+  const imgPython = document.querySelector("#imgPython")
 
   if (html.classList.contains("dark")) {
     imgProfile.setAttribute("src", "./assets/logo-light.png")
     iconMode.setAttribute("src", "./assets/night-icon.svg")
+    imgPython.setAttribute("src", "./assets/python-dark.svg")
   } else {
     imgProfile.setAttribute("src", "./assets/logo-dark.png")
     iconMode.setAttribute("src", "./assets/day-icon.svg")
+    imgPython.setAttribute("src", "./assets/python-light.svg")
   }
 }
 

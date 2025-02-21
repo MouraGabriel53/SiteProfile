@@ -224,6 +224,18 @@ body {
   animation: typing 2s steps(25), blinking 0.5s infinite step-end alternate;
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}
+
 #cover-section p {
   text-align: right;
 
@@ -583,9 +595,11 @@ body {
 
 #skills-container {
   display: flex;
-  justify-content: center;
+  align-items: center;
   margin-top: 50px;
   gap: 16px;
+  
+  overflow: hidden;
 }
 
 #skills-container div {
@@ -594,16 +608,61 @@ body {
 
   border-radius: 30px;
   background: var(--cards-background);
+
+  animation: infiniteScroll 1s linear infinite;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
+@keyframes infiniteScroll {
+  to {
+    translate: calc(-50% - 5px);
   }
 }
 
-@keyframes blinking {
-  50% {
-    border-color: transparent;
-  }
+.skills-container-lang {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 40px;
+}
+
+.skills-container-lang img {
+  width: 65px;
+  height: 65px;
+
+  background-color: var(--cards-background);
+}
+
+.skills-container-lang h1 {
+  width: 125px;
+  height: 40px;
+  margin-top: 15px;
+
+  color: var(--text-color-dark);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.skills-container-lang p {
+  width: 269px;
+  height: 72px;
+  margin-top: 10px;
+
+  color: var(--text-color-dark);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.skills-container-lang span {
+  width: 60px;
+  height: 5px;
+
+  background: var(--separator-bar);
 }
