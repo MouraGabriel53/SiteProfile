@@ -594,6 +594,8 @@ body {
 }
 
 #skills-container {
+  width: fit-content;
+  height: fit-content;
   display: flex;
   align-items: center;
   margin-top: 50px;
@@ -609,12 +611,12 @@ body {
   border-radius: 30px;
   background: var(--cards-background);
 
-  animation: infiniteScroll 1s linear infinite;
+  animation: infiniteScroll 15s linear infinite;
 }
 
 @keyframes infiniteScroll {
   to {
-    translate: calc(-50% - 5px);
+    translate: 1815px;
   }
 }
 

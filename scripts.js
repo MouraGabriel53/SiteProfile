@@ -1,13 +1,3 @@
-/*
-let elementScroll = document.querySelector("#skills-container")
-let elementContainer = document.querySelector(".skills-container-lang")
-let elementChildren = Array.from(elementContainer.children)
-elementChildren.forEach((item) => {
-  let elementDuplicated = item.cloneNode(true)
-  elementContainer.appendChild(elementDuplicated)
-})
-*/
-
 function toggleMode() {
   const html = document.documentElement
   html.classList.toggle("dark")
