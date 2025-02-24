@@ -6,7 +6,8 @@
 
 :root {
   /*Backgrounds*/
-  --body-background: rgba(252, 252, 251, 1);
+  /*--body-background: rgba(252, 252, 251, 1);*/
+  --body-background: url(./assets/background-light.jpg);
   --about-background: url(./assets/quadro-preto.png);
 
   /*Text*/
@@ -36,7 +37,7 @@
 
 .dark {
   /*Backgrounds*/
-  --body-background: rgba(49, 48, 45, 1);
+  --body-background: url(./assets/background-dark.jpg);
   --about-background: url(./assets/quadro-branco.png);
 
   /*Text*/
@@ -53,7 +54,6 @@
   /*Objects*/
   --cards-background: rgba(69, 67, 62, 1);
   --separator-bar: rgba(249, 249, 247, 1);
-  --box-shadow: rgba(255, 255, 255, 0.25);
 
   /*Buttons*/
   --button-text-light: rgba(249, 249, 247, 1);
@@ -70,7 +70,7 @@ html {
 }
 
 body {
-  background-color: var(--body-background);
+  background: var(--body-background) no-repeat top center/cover;
 }
 
 /*HEADER*/
