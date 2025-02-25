@@ -7,8 +7,8 @@
 :root {
   /*Backgrounds*/
   /*--body-background: rgba(252, 252, 251, 1);*/
-  --body-background: url(./assets/background-light.jpg);
-  --about-background: url(./assets/quadro-preto.png);
+  --body-background: url(./assets/background/background-light.jpeg);
+  --about-background: url(./assets/background/quadro-preto.png);
 
   /*Text*/
   --text-color-light: rgba(249, 249, 247, 1);
@@ -37,8 +37,8 @@
 
 .dark {
   /*Backgrounds*/
-  --body-background: url(./assets/background-dark.jpg);
-  --about-background: url(./assets/quadro-branco.png);
+  --body-background: url(./assets/background/background-dark.jpg);
+  --about-background: url(./assets/background/quadro-branco.png);
 
   /*Text*/
   --text-color-light: rgba(22, 21, 20, 1);
@@ -181,12 +181,13 @@ body {
 }
 
 #nav-button-language:hover {
+  transition: 350ms;
   background-color: var(--button-light-gray);
   cursor: pointer;
 }
 
 #nav-options a:hover {
-  transition: 150ms;
+  transition: 250ms;
   color: var(--text-color-animation);
 }
 
