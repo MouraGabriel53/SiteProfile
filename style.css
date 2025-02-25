@@ -515,8 +515,8 @@ body {
 #works-button-article {
   display: flex;
   width: 360px;
-  height: 80px;
-  margin-top: 20px;
+  height: 60px;
+  margin-top: 40px;
 
   border-radius: 30px;
   border: 2px solid var(--button-dark-purple);
@@ -612,7 +612,7 @@ body {
   border-radius: 30px;
   background: var(--cards-background);
 
-  animation: infiniteScroll 15s linear infinite;
+  /*animation: infiniteScroll 15s linear infinite;*/
 }
 
 @keyframes infiniteScroll {
@@ -642,7 +642,7 @@ body {
   margin-top: 15px;
 
   color: var(--text-color-dark);
-  text-align: center;
+  text-align: left;
   font-family: Poppins;
   font-size: 32px;
   font-style: normal;
