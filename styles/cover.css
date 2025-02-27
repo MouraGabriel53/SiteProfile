@@ -1,0 +1,137 @@
+/*COVER*/
+
+#cover-article {
+  display: flex;
+  height: 720px;
+}
+
+#cover-section {
+  display: block;
+  width: 878px;
+  height: 125px;
+  margin: 194px auto 0px auto;
+}
+
+#cover-section h1 {
+  color: var(--text-color-dark);
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  border-right: 4px solid;
+  width: 878px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(25), blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}
+
+#cover-section p {
+  text-align: right;
+
+  color: var(--text-color-dark);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#cover-section div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 70px;
+}
+
+#cover-section button {
+  display: flex;
+  width: 285.714px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+#cover-button-resume {
+  border-radius: 30px;
+  background-color: var(--button-dark-purple);
+  border: 2px solid var(--button-dark-purple);
+}
+
+#cover-button-resume a {
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  text-align: center;
+
+  color: var(--button-text-light);
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+#cover-button-contact {
+  border-radius: 30px;
+  background-color: transparent;
+  border: 2px solid var(--button-light-purple);
+}
+
+#cover-button-contact a {
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  text-align: center;
+
+  color: var(--button-text-dark);
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+#cover-button-resume,
+#cover-button-contact {
+  transition: background-color 0.3s ease;
+}
+
+#cover-button-resume a,
+#cover-button-contact a {
+  transition: color 0.3s ease;
+}
+
+#cover-button-resume:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#cover-button-resume:hover a {
+  color: var(--button-text-dark-purple);
+}
+
+#cover-button-contact:hover {
+  background-color: var(--button-light-purple);
+  cursor: pointer;
+}
+
+#cover-button-contact:hover a {
+  color: var(--button-text-light);
+}

@@ -1,0 +1,143 @@
+/*HEADER*/
+
+#header-header {
+  display: flex;
+  height: 81px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--body-background);
+}
+
+#header-header nav {
+  display: flex;
+  width: 1200px;
+}
+
+#nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#nav-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+#nav-logo h1 {
+  color: var(--text-color-dark);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+#nav-options {
+  display: flex;
+  margin: auto;
+  gap: 20px;
+}
+
+#nav-options a {
+  text-decoration: none;
+  color: var(--text-color-dark);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#nav-button {
+  display: flex;
+  gap: 20px;
+}
+
+#nav-button button {
+  width: 100px;
+  height: 51px;
+
+  border-radius: 30px;
+  border: 2px solid var(--button-light-gray);
+}
+
+#nav-button-language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  background-color: transparent;
+}
+
+#nav-button-language span {
+  color: var(--text-color-dark);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#nav-button-mode {
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+}
+
+#nav-button-mode span {
+  display: flex;
+  width: 40px;
+  height: 40.8px;
+
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+
+  border-radius: 50%;
+  background-color: var(--button-light-gray);
+
+  animation: slide-out 0.2s;
+}
+
+#nav-button-mode img {
+  display: flex;
+  width: 22px;
+  height: 22.44px;
+}
+
+#nav-options a:hover {
+  transition: 250ms;
+  color: var(--text-color-animation);
+}
+
+#nav-button-language:hover {
+  transition: 350ms;
+  background-color: var(--button-light-gray);
+  cursor: pointer;
+}
+
+#nav-button-mode span:hover {
+  outline: 8px solid var(--highlight-color);
+}
+
+.light #nav-button-mode span {
+  animation: slide-in 0.2s forwards;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 5px;
+  }
+  to {
+    margin-left: 51px;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    margin-left: 51px;
+  }
+  to {
+    margin-left: 5px;
+  }
+}

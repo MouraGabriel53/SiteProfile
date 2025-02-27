@@ -1,0 +1,103 @@
+/*SKILLS*/
+
+#skills-article {
+  width: auto;
+  height: 720px;
+}
+
+#skills-section {
+  display: block;
+}
+
+#skills-section header {
+  display: block;
+  width: 548px;
+  height: 155px;
+  margin: 0px auto 0px 90px;
+}
+
+#skills-section header h1 {
+  color: var(--text-color-dark);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#skills-section header h2 {
+  color: var(--text-color-dark);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+}
+
+#skills-container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 16px;
+}
+
+#skills-container div {
+  width: 350px;
+  height: 450px;
+
+  border-radius: 30px;
+  background: var(--cards-background);
+}
+
+.skills-container-lang {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 40px;
+}
+
+.skills-container-lang img {
+  width: 65px;
+  height: 65px;
+
+  background-color: var(--cards-background);
+}
+
+.skills-container-lang h1 {
+  width: 125px;
+  height: 40px;
+  margin-top: 15px;
+
+  color: var(--text-color-dark);
+  text-align: left;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.skills-container-lang p {
+  width: 269px;
+  height: 72px;
+  margin-top: 10px;
+
+  color: var(--text-color-dark);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.skills-container-lang span {
+  width: 60px;
+  height: 5px;
+
+  background: var(--separator-bar);
+}

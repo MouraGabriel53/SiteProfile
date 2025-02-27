@@ -1,0 +1,61 @@
+/*ABOUT*/
+
+#about-article {
+  display: flex;
+  height: 720px;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--about-background) no-repeat top center/cover;
+  border-radius: 30px 30px 0 0;
+}
+
+#about-section {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  gap: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-section header {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 706px;
+  left: 120px;
+}
+
+#about-section header h1 {
+  background-image: var(--text-color-about-title);
+  background-clip: text;
+  color: transparent;
+
+  font-family: Poppins;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#about-section img {
+  width: 333px;
+  height: 330px;
+  object-fit: cover;
+}
+
+#about-section div {
+  flex: 1;
+  max-width: 600px;
+}
+
+#about-section div p {
+  color: var(--text-color-light);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}

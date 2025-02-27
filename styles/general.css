@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Background*/
+  --background: url(../assets/background/background-dark.jpg);
+  --about-background: url(../assets/background/quadro-branco.png);
+
+  /*Text*/
+  --text-color-light: rgba(22, 21, 20, 1);
+  --text-color-dark: rgba(249, 249, 247, 1);
+  --text-color-animation: rgba(196, 191, 178, 1);
+  --text-color-button: rgba(249, 249, 247, 1);
+  --text-color-about-title: linear-gradient(
+    to top,
+    rgba(22, 21, 20, 1) 50%,
+    rgba(249, 249, 247, 1) 50%
+  );
+
+  /*Objects*/
+  --cards-background: rgba(69, 67, 62, 1);
+  --separator-bar: rgba(249, 249, 247, 1);
+
+  /*Buttons*/
+  --highlight-color: rgba(255, 255, 255, 0.2);
+
+  --button-text-light: rgba(249, 249, 247, 1);
+  --button-text-dark: rgba(249, 249, 247, 1);
+  --button-text-dark-purple: rgba(249, 249, 247, 1);
+
+  --button-light-gray: rgba(196, 191, 178, 1);
+  --button-light-purple: rgba(44, 19, 239, 1);
+  --button-dark-purple: rgba(0, 0, 71, 1);
+}
+
+.light {
+  /*Background*/
+  --background: url(../assets/background/background-light.jpg);
+  --about-background: url(../assets/background/quadro-preto.png);
+
+  /*Text*/
+  --text-color-light: rgba(249, 249, 247, 1);
+  --text-color-dark: rgba(22, 21, 20, 1);
+  --text-color-animation: rgba(196, 191, 178, 1);
+  --text-color-about-title: linear-gradient(
+    to top,
+    rgba(249, 249, 247, 1) 50%,
+    rgba(22, 21, 20, 1) 50%
+  );
+
+  /*Objects*/
+  --cards-background: rgba(196, 191, 178, 1);
+  --separator-bar: rgba(249, 249, 247, 1);
+  --box-shadow: rgba(0, 0, 0, 0.25);
+
+  /*Buttons*/
+  --highlight-color: rgba(0, 0, 0, 0.1);
+
+  --button-text-light: rgba(249, 249, 247, 1);
+  --button-text-dark: rgba(22, 21, 20, 1);
+  --button-text-dark-purple: rgba(0, 0, 71, 1);
+
+  --button-light-gray: rgba(196, 191, 178, 1);
+  --button-light-purple: rgba(44, 19, 239, 1);
+  --button-dark-purple: rgba(0, 0, 71, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background) no-repeat top center/cover;
+}
