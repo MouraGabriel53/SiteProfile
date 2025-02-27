@@ -1,6 +1,6 @@
 function toggleMode() {
   const html = document.documentElement
-  html.classList.toggle("dark")
+  html.classList.toggle("light")
 
   const imgProfile = document.querySelector("#imgProfile")
   const iconMode = document.querySelector("#iconMode")
@@ -10,9 +10,9 @@ function toggleMode() {
   const imgCss = document.querySelector("#imgCss")
   const imgJs = document.querySelector("#imgJs")
 
-  if (html.classList.contains("dark")) {
+  if (html.classList.contains("light")) {
     imgProfile.setAttribute("src", "./assets/icons/logo-light.png")
-    iconMode.setAttribute("src", "./assets/icons/night-icon.svg")
+    iconMode.setAttribute("src", "./assets/icons/day-icon.svg")
     imgPython.setAttribute("src", "./assets/logo-languages/python-dark.svg")
     imgCpp.setAttribute("src", "./assets/logo-languages/cpp-dark.svg")
     imgHtml.setAttribute("src", "./assets/logo-languages/html-dark.svg")
@@ -21,7 +21,7 @@ function toggleMode() {
     
   } else {
     imgProfile.setAttribute("src", "./assets/icons/logo-dark.png")
-    iconMode.setAttribute("src", "./assets/icons/day-icon.svg")
+    iconMode.setAttribute("src", "./assets/icons/night-icon.svg")
     imgPython.setAttribute("src", "./assets/logo-languages/python-light.svg")
     imgCpp.setAttribute("src", "./assets/logo-languages/cpp-light.svg")
     imgHtml.setAttribute("src", "./assets/logo-languages/html-light.svg")
