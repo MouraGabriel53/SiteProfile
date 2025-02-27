@@ -477,15 +477,10 @@ body {
   line-height: normal;
 }
 
-#works-section #image-logo {
-  display: flex;
-  width: 594px;
-  height: 321px;
-  margin: 74px auto;
-}
-
 #works-container {
   display: flex;
+  width: fit-content;
+  height: 639px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -530,8 +525,8 @@ body {
 #works-container span {
   width: 175px;
   height: 8px;
-  margin-right: 841px;
   margin-top: -20px;
+  margin-right: 841px;
 
   background: var(--separator-bar);
 }
@@ -540,7 +535,7 @@ body {
   display: flex;
   width: 360px;
   height: 60px;
-  margin-top: 40px;
+  margin: auto;
 
   border-radius: 30px;
   border: 2px solid var(--button-dark-purple);
@@ -561,6 +556,13 @@ body {
   font-weight: 500;
   line-height: normal;
   text-decoration: none;
+}
+
+#works-section #image-logo {
+  display: block;
+  width: 594px;
+  height: 321px;
+  margin: 72px auto;
 }
 
 #works-button-article {
