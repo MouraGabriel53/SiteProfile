@@ -21,8 +21,15 @@
   );
 
   /*Objects*/
+  --img-project-01: url(../assets/contents/project-01-dark.png);
+  --img-project-02: url(../assets/contents/project-01.png);
+  --img-project-03: url(../assets/contents/project-01.png);
+
   --cards-background: rgba(69, 67, 62, 1);
+  --cards-background-special: rgba(237, 235, 231, 1);
+
   --separator-bar: rgba(249, 249, 247, 1);
+  --box-shadow: rgba(0, 0, 0, 0.25);
 
   /*Buttons*/
   --highlight-color: rgba(255, 255, 255, 0.2);
@@ -44,7 +51,6 @@
   /*Text*/
   --text-color-light: rgba(249, 249, 247, 1);
   --text-color-dark: rgba(22, 21, 20, 1);
-  --text-color-animation: rgba(196, 191, 178, 1);
   --text-color-about-title: linear-gradient(
     to top,
     rgba(249, 249, 247, 1) 50%,
@@ -52,20 +58,16 @@
   );
 
   /*Objects*/
+  --img-project-01: url(../assets/contents/project-01-light.png);
+
   --cards-background: rgba(196, 191, 178, 1);
   --separator-bar: rgba(249, 249, 247, 1);
-  --box-shadow: rgba(0, 0, 0, 0.25);
 
   /*Buttons*/
   --highlight-color: rgba(0, 0, 0, 0.1);
 
-  --button-text-light: rgba(249, 249, 247, 1);
   --button-text-dark: rgba(22, 21, 20, 1);
   --button-text-dark-purple: rgba(0, 0, 71, 1);
-
-  --button-light-gray: rgba(196, 191, 178, 1);
-  --button-light-purple: rgba(44, 19, 239, 1);
-  --button-dark-purple: rgba(0, 0, 71, 1);
 }
 
 html {

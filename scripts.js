@@ -11,22 +11,21 @@ function toggleMode() {
   const imgJs = document.querySelector("#imgJs")
 
   if (html.classList.contains("light")) {
-    imgProfile.setAttribute("src", "./assets/icons/logo-light.png")
-    iconMode.setAttribute("src", "./assets/icons/day-icon.svg")
-    imgPython.setAttribute("src", "./assets/logo-languages/python-dark.svg")
-    imgCpp.setAttribute("src", "./assets/logo-languages/cpp-dark.svg")
-    imgHtml.setAttribute("src", "./assets/logo-languages/html-dark.svg")
-    imgCss.setAttribute("src", "./assets/logo-languages/css-dark.svg")
-    imgJs.setAttribute("src", "./assets/logo-languages/js-dark.svg")
-    
+    imgProfile.setAttribute("src", "../assets/icons/logo-light.png")
+    iconMode.setAttribute("src", "../assets/icons/day-icon.svg")
+    imgPython.setAttribute("src", "../assets/logo-languages/python-light.svg")
+    imgCpp.setAttribute("src", "../assets/logo-languages/cpp-light.svg")
+    imgHtml.setAttribute("src", "../assets/logo-languages/html-light.svg")
+    imgCss.setAttribute("src", "../assets/logo-languages/css-light.svg")
+    imgJs.setAttribute("src", "../assets/logo-languages/js-light.svg")
   } else {
-    imgProfile.setAttribute("src", "./assets/icons/logo-dark.png")
-    iconMode.setAttribute("src", "./assets/icons/night-icon.svg")
-    imgPython.setAttribute("src", "./assets/logo-languages/python-light.svg")
-    imgCpp.setAttribute("src", "./assets/logo-languages/cpp-light.svg")
-    imgHtml.setAttribute("src", "./assets/logo-languages/html-light.svg")
-    imgCss.setAttribute("src", "./assets/logo-languages/css-light.svg")
-    imgJs.setAttribute("src", "./assets/logo-languages/js-light.svg")
+    imgProfile.setAttribute("src", "../assets/icons/logo-dark.png")
+    iconMode.setAttribute("src", "../assets/icons/night-icon.svg")
+    imgPython.setAttribute("src", "../assets/logo-languages/python-dark.svg")
+    imgCpp.setAttribute("src", "../assets/logo-languages/cpp-dark.svg")
+    imgHtml.setAttribute("src", "../assets/logo-languages/html-dark.svg")
+    imgCss.setAttribute("src", "../assets/logo-languages/css-dark.svg")
+    imgJs.setAttribute("src", "../assets/logo-languages/js-dark.svg")
   }
 }
 

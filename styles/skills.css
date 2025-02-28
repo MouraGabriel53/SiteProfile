@@ -23,7 +23,6 @@
   font-size: 64px;
   font-style: normal;
   font-weight: 800;
-  line-height: normal;
 }
 
 #skills-section header h2 {
@@ -33,7 +32,6 @@
   font-size: 40px;
   font-style: normal;
   font-weight: 275;
-  line-height: normal;
 }
 
 #skills-container {
@@ -64,12 +62,10 @@
 .skills-container-lang img {
   width: 65px;
   height: 65px;
-
-  background-color: var(--cards-background);
 }
 
 .skills-container-lang h1 {
-  width: 125px;
+  width: fit-content;
   height: 40px;
   margin-top: 15px;
 
