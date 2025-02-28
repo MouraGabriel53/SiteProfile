@@ -5,6 +5,13 @@
 }
 
 :root {
+  /*Images*/
+  --img-python: url(../assets/logo-languages/python-light.svg);
+  --img-cpp: url(../assets/logo-languages/cpp-light.svg);
+  --img-html: url(../assets/logo-languages/html-light.svg);
+  --img-css: url(../assets/logo-languages/css-light.svg);
+  --img-js: url(../assets/logo-languages/js-light.svg);
+
   /*Background*/
   --background: url(../assets/background/background-dark.jpg);
   --about-background: url(../assets/background/quadro-branco.png);
@@ -22,8 +29,6 @@
 
   /*Objects*/
   --img-project-01: url(../assets/contents/project-01-dark.png);
-  --img-project-02: url(../assets/contents/project-01.png);
-  --img-project-03: url(../assets/contents/project-01.png);
 
   --cards-background: rgba(69, 67, 62, 1);
   --cards-background-special: rgba(237, 235, 231, 1);
@@ -35,6 +40,7 @@
   --highlight-color: rgba(255, 255, 255, 0.2);
 
   --button-text-light: rgba(249, 249, 247, 1);
+
   --button-text-dark: rgba(249, 249, 247, 1);
   --button-text-dark-purple: rgba(249, 249, 247, 1);
 
@@ -44,6 +50,13 @@
 }
 
 .light {
+  /*images*/
+  --img-python: url(../assets/logo-languages/python-dark.svg);
+  --img-cpp: url(../assets/logo-languages/cpp-dark.svg);
+  --img-html: url(../assets/logo-languages/html-dark.svg);
+  --img-css: url(../assets/logo-languages/css-dark.svg);
+  --img-js: url(../assets/logo-languages/js-dark.svg);
+
   /*Background*/
   --background: url(../assets/background/background-light.jpg);
   --about-background: url(../assets/background/quadro-preto.png);
@@ -59,9 +72,7 @@
 
   /*Objects*/
   --img-project-01: url(../assets/contents/project-01-light.png);
-
   --cards-background: rgba(196, 191, 178, 1);
-  --separator-bar: rgba(249, 249, 247, 1);
 
   /*Buttons*/
   --highlight-color: rgba(0, 0, 0, 0.1);

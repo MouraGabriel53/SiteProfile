@@ -59,9 +59,44 @@
   padding: 40px;
 }
 
-.skills-container-lang img {
+.skills-container-lang .imgPython {
+  display: flex;
   width: 65px;
   height: 65px;
+
+  background: var(--img-python) no-repeat top center/cover;
+}
+
+.skills-container-lang .imgCpp {
+  display: flex;
+  width: 65px;
+  height: 65px;
+
+  background: var(--img-cpp) no-repeat top center/cover;
+}
+
+.skills-container-lang .imgHtml {
+  display: flex;
+  width: 65px;
+  height: 65px;
+
+  background: var(--img-html) no-repeat top center/cover;
+}
+
+.skills-container-lang .imgCss {
+  display: flex;
+  width: 65px;
+  height: 65px;
+
+  background: var(--img-css) no-repeat top center/cover;
+}
+
+.skills-container-lang .imgJs {
+  display: flex;
+  width: 65px;
+  height: 65px;
+
+  background: var(--img-js) no-repeat top center/cover;
 }
 
 .skills-container-lang h1 {
