@@ -26,7 +26,7 @@
 }
 
 #nav-logo h1 {
-  color: var(--text-color-dark);
+  color: var(--text-color-white);
   font-family: Poppins;
   font-size: 24px;
   font-weight: 900;
@@ -40,7 +40,7 @@
 
 #nav-options a {
   text-decoration: none;
-  color: var(--text-color-dark);
+  color: var(--text-color-white);
   font-family: Poppins;
   font-size: 16px;
   font-weight: 300;
@@ -69,7 +69,7 @@
 }
 
 #nav-button-language span {
-  color: var(--text-color-dark);
+  color: var(--text-color-white);
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;

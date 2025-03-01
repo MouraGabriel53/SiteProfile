@@ -52,7 +52,7 @@
 }
 
 #about-section div p {
-  color: var(--text-color-light);
+  color: var(--text-color-dark);
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;

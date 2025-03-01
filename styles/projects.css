@@ -20,7 +20,7 @@
 }
 
 #projects-title-shadow {
-  color: rgba(0, 0, 71, 1);
+  color: var(--text-color-projects-title-shadow);
   text-align: center;
   font-family: Poppins;
   font-size: 128px;
@@ -32,7 +32,7 @@
   translate: -10px;
   transform: translateY(-198px);
 
-  color: rgba(44, 19, 239, 1);
+  color: var(--text-color-projects-title);
   text-align: center;
   font-family: Poppins;
   font-size: 128px;
@@ -43,7 +43,7 @@
 #projects-section header h2 {
   transform: translateY(-240px);
 
-  color: rgba(0, 0, 71, 1);
+  color: var(--text-color-projects-title-shadow);
   text-align: right;
   font-family: Poppins;
   font-size: 24px;
@@ -55,7 +55,7 @@
 
 #projects-one {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: 610px 200px 270px;
   grid-template-rows: auto auto 42px;
   gap: 10px;
 }
@@ -94,7 +94,7 @@
   width: 178px;
   height: 108px;
 
-  color: var(--text-color-dark);
+  color: var(--text-color-white);
   text-align: center;
   font-family: Poppins;
   font-size: 24px;
@@ -118,7 +118,7 @@
 
 #projects-div-languages-one {
   grid-column: span 1 / span 1;
-  grid-row: auto / auto;
+  grid-row: auto;
   grid-column-start: 3;
   grid-row-start: 2;
 
@@ -162,7 +162,6 @@
 
   width: 480px;
   height: 42px;
-  align-self: end;
 
   border-radius: 30px;
   border: 2px solid var(--button-dark-purple);
@@ -176,7 +175,7 @@
   justify-content: center;
   align-items: center;
 
-  color: var(--button-text-light);
+  color: var(--button-text-white);
   text-align: center;
   font-family: Poppins;
   font-size: 16px;
@@ -207,15 +206,15 @@
 
 #projects-two {
   display: grid;
-  grid-template-columns: repeat(8, auto);
-  grid-template-rows: repeat(4, auto);
+  grid-template-columns: 200px 610px 270px;
+  grid-template-rows: auto auto 42px;
   margin: 30px 0px 30px 0px;
   gap: 10px;
 }
 
 #projects-text-two {
-  grid-column: span 2 / span 2;
-  grid-row: span 4 / span 4;
+  grid-column: span 1 / span 1;
+  grid-row: span 3 / span 3;
   grid-column-start: 1;
   grid-row-start: 1;
 
@@ -224,26 +223,25 @@
   height: 385px;
   align-items: center;
   justify-content: center;
-  padding: 20px;
 
   border-radius: 30px;
   background-color: var(--cards-background);
 }
 
 #projects-text-two p {
-  color: var(--text-color-dark);
+  color: var(--text-color-white);
+  text-align: center;
   font-family: Poppins;
-  text-align: rigth;
-  font-size: 14px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 
 #projects-img-two {
-  grid-column: span 4 / span 4;
-  grid-row: span 4 / span 4;
-  grid-column-start: 3;
+  grid-column: span 1 / span 1;
+  grid-row: span 3 / span 3;
+  grid-column-start: 2;
   grid-row-start: 1;
 
   width: 610px;
@@ -251,17 +249,18 @@
 
   border-radius: 30px;
   background: var(--img-project-02) no-repeat top center/cover;
+  box-shadow: 0px 0px 25px 0px var(--box-shadow);
 }
 
 #projects-div-languages-two {
   grid-column: span 1 / span 1;
-  grid-row: span 2 / span 2;
-  grid-column-start: 7;
+  grid-row: span 1 / span 1;
+  grid-column-start: 3;
   grid-row-start: 1;
 
   display: flex;
-  width: 200px;
-  height: 200px;
+  width: 270px;
+  height: 270px;
   align-items: center;
   justify-content: center;
 
@@ -270,31 +269,32 @@
 }
 
 .imgPython {
-  width: 65px;
-  height: 65px;
+  width: 100px;
+  height: 100px;
 
   background: var(--img-python) no-repeat top center/cover;
 }
 
 #projects-div-decoration-two {
-  grid-column: span 2 / span 2;
-  grid-row: span 2 / span 2;
-  grid-column-start: 7;
-  grid-row-start: 3;
+  grid-column: span 1 / span 1;
+  grid-row: span 1 / span 1;
+  grid-column-start: 3;
+  grid-row-start: 2;
 
-  width: 200px;
-  height: 90px;
+  width: 270px;
+  height: 55px;
 
   border-radius: 30px;
   background-color: var(--cards-background-special);
 }
 
 #projects-two button {
-  grid-column: span 2 / span 2;
-  grid-column-start: 7;
-  grid-row-start: 4;
+  grid-column: span 1 / span 1;
+  grid-row: span 1 / span 1;
+  grid-column-start: 3;
+  grid-row-start: 3;
 
-  width: 200px;
+  width: 270px;
   height: 42px;
 
   border-radius: 30px;
@@ -309,7 +309,7 @@
   justify-content: center;
   align-items: center;
 
-  color: var(--button-text-light);
+  color: var(--button-text-white);
   text-align: center;
   font-family: Poppins;
   font-size: 16px;

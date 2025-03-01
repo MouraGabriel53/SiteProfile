@@ -17,15 +17,18 @@
   --about-background: url(../assets/background/quadro-branco.png);
 
   /*Text*/
-  --text-color-light: rgba(22, 21, 20, 1);
-  --text-color-dark: rgba(249, 249, 247, 1);
-  --text-color-animation: rgba(196, 191, 178, 1);
-  --text-color-button: rgba(249, 249, 247, 1);
+  --text-color-white: rgba(237, 235, 231, 1);
+  --text-color-dark: rgba(22, 21, 20, 1);
+  --text-color-animation: rgba(196, 191, 178, 0.9);
+
   --text-color-about-title: linear-gradient(
     to top,
     rgba(22, 21, 20, 1) 50%,
     rgba(249, 249, 247, 1) 50%
   );
+
+  --text-color-projects-title: rgba(44, 19, 239, 1);
+  --text-color-projects-title-shadow: rgba(0, 0, 71, 1);
 
   /*Objects*/
   --img-project-01: url(../assets/contents/project-01-dark.png);
@@ -40,10 +43,10 @@
   /*Buttons*/
   --highlight-color: rgba(255, 255, 255, 0.2);
 
-  --button-text-light: rgba(249, 249, 247, 1);
+  --button-text-white: rgba(249, 249, 247, 1);
+  --button-text-dark-purple: rgba(0, 0, 71, 1);
 
-  --button-text-dark: rgba(249, 249, 247, 1);
-  --button-text-dark-purple: rgba(249, 249, 247, 1);
+  --button-text-special: rgba(249, 249, 247, 1);
 
   --button-light-gray: rgba(196, 191, 178, 1);
   --button-light-purple: rgba(44, 19, 239, 1);
@@ -63,8 +66,9 @@
   --about-background: url(../assets/background/quadro-preto.png);
 
   /*Text*/
-  --text-color-light: rgba(249, 249, 247, 1);
-  --text-color-dark: rgba(22, 21, 20, 1);
+  --text-color-white: rgba(22, 21, 20, 1);
+  --text-color-dark: rgba(237, 235, 231, 1);
+
   --text-color-about-title: linear-gradient(
     to top,
     rgba(249, 249, 247, 1) 50%,
@@ -76,10 +80,9 @@
   --cards-background: rgba(196, 191, 178, 1);
 
   /*Buttons*/
-  --highlight-color: rgba(0, 0, 0, 0.1);
+  --button-text-special: rgba(22, 21, 20, 1);
 
-  --button-text-dark: rgba(22, 21, 20, 1);
-  --button-text-dark-purple: rgba(0, 0, 71, 1);
+  --highlight-color: rgba(0, 0, 0, 0.1);
 }
 
 html {

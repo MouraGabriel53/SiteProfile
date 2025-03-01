@@ -36,7 +36,7 @@
 }
 
 #works-section-header h1 {
-  color: var(--text-color-dark);
+  color: var(--text-color-white);
   text-align: center;
   font-family: Poppins;
   font-size: 128px;
@@ -46,7 +46,7 @@
 }
 
 #works-section-header h2 {
-  color: var(--text-color-dark);
+  color: var(--text-color-white);
   text-align: right;
   font-family: Poppins;
   font-size: 40px;
@@ -66,7 +66,7 @@
 }
 
 #works-container h1 {
-  color: var(--text-color-dark);
+  color: var(--text-color-white);
   text-align: center;
   font-family: Poppins;
   font-size: 24px;
@@ -84,7 +84,7 @@
 }
 
 #works-container-elements div p {
-  color: var(--text-color-dark);
+  color: var(--text-color-white);
   text-align: justify;
   font-family: Poppins;
   font-size: 20px;
@@ -127,7 +127,7 @@
   justify-content: center;
   align-items: center;
 
-  color: var(--button-text-light);
+  color: var(--button-text-white);
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
