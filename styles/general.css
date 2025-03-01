@@ -62,7 +62,7 @@
   --img-js: url(../assets/logo-languages/js-dark.svg);
 
   /*Background*/
-  --background: url(../assets/background/background-light.jpg);
+  --background: rgb(207, 205, 205);
   --about-background: url(../assets/background/quadro-preto.png);
 
   /*Text*/
