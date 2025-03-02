@@ -208,7 +208,7 @@
   display: grid;
   grid-template-columns: 200px 610px 270px;
   grid-template-rows: auto auto auto;
-  margin: 30px 0px 30px 0px;
+  margin: 50px 0px 50px 0px;
   gap: 10px;
 }
 

@@ -1,0 +1,42 @@
+#contact-article {
+  display: block;
+  width: auto;
+  height: 1440px;
+}
+
+#contact-section {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+}
+
+#contact-section header {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  margin: 100px 0px 0px 124.5px;
+}
+
+#contact-section header h1 {
+  color: var(--text-color-projects-title);
+  text-align: left;
+  font-family: Poppins;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+#contact-section header h2 {
+  position: relative;
+  top: -48px;
+  left: 40px;
+
+  color: var(--text-color-white);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

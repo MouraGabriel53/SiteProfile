@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  width: auto;
+  height: 81px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--cards-background);
+
+  color: var(--text-color-white);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+footer a {
+  color: var(--text-color-white);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
