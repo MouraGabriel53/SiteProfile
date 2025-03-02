@@ -33,6 +33,7 @@
   /*Objects*/
   --img-project-01: url(../assets/contents/project-01-dark.png);
   --img-project-02: url(../assets/contents/project-02.png);
+  --img-project-03: url(../assets/contents/project-03.png);
 
   --cards-background: rgba(69, 67, 62, 1);
   --cards-background-special: rgba(237, 235, 231, 1);
@@ -62,7 +63,7 @@
   --img-js: url(../assets/logo-languages/js-dark.svg);
 
   /*Background*/
-  --background: rgb(207, 205, 205);
+  --background: rgba(255, 255, 255, 1);
   --about-background: url(../assets/background/quadro-preto.png);
 
   /*Text*/
