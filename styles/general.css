@@ -16,6 +16,9 @@
   --background: url(../assets/background/background-dark.jpg);
   --about-background: url(../assets/background/quadro-branco.png);
 
+  --contact-div-background: rgba(196, 191, 178, 1);
+  --contact-inputs-background: rgba(176, 172, 160, 1);
+
   /*Text*/
   --text-color-white: rgba(237, 235, 231, 1);
   --text-color-dark: rgba(22, 21, 20, 1);

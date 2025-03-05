@@ -293,10 +293,39 @@
           <h2>fazer um projeto juntos?</h2>
         </header>
         <form action="">
-          <input type="text" name="name" placeholder="Nome" required />
-          <input type="email" name="email" placeholder="E-mail" required />
-          <textarea name="message" placeholder="Mensagem" required></textarea>
-          <button type="submit">Enviar</button>
+          <div class="div-inputs">
+            <ion-icon name="person"></ion-icon> |
+            <input
+              type="text"
+              name="name"
+              placeholder="Digite seu nome"
+              required
+              maxlength="50"
+            />
+          </div>
+          <div class="div-inputs">
+            <ion-icon name="mail"></ion-icon> |
+            <input
+              type="email"
+              name="email"
+              placeholder="Digite seu melhor e-mail"
+              required
+              maxlength="50"
+            />
+          </div>
+          <div class="div-textarea">
+            <ion-icon name="text"></ion-icon> |
+            <textarea
+              name="message"
+              placeholder="Faça uma breve descrição sobre o projeto que deseja realizar"
+              required
+              maxlength="300"
+            ></textarea>
+          </div>
+          <button type="submit">
+            Enviar mensagem
+            <ion-icon name="send"></ion-icon>
+          </button>
         </form>
         <div id="contact-social">
           <span></span>
