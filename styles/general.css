@@ -21,6 +21,8 @@
   --text-color-dark: rgba(22, 21, 20, 1);
   --text-color-animation: rgba(196, 191, 178, 1);
 
+  --text-color-about-special: rgba(44, 19, 239, 1);
+
   --text-color-about-title: linear-gradient(
     to top,
     rgba(22, 21, 20, 1) 50%,
@@ -71,6 +73,8 @@
   /*Text*/
   --text-color-white: rgba(22, 21, 20, 1);
   --text-color-dark: rgba(237, 235, 231, 1);
+
+  --text-color-about-special: rgba(44, 19, 239, 0.7);
 
   --text-color-about-title: linear-gradient(
     to top,
