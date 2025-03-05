@@ -19,7 +19,7 @@
   /*Text*/
   --text-color-white: rgba(237, 235, 231, 1);
   --text-color-dark: rgba(22, 21, 20, 1);
-  --text-color-animation: rgba(196, 191, 178, 0.9);
+  --text-color-animation: rgba(196, 191, 178, 1);
 
   --text-color-about-title: linear-gradient(
     to top,
@@ -29,6 +29,8 @@
 
   --text-color-projects-title: rgba(44, 19, 239, 1);
   --text-color-projects-title-shadow: rgba(0, 0, 71, 1);
+
+  --text-color-projects-content: rgba(237, 235, 231, 1);
 
   /*Objects*/
   --img-project-01: url(../assets/contents/project-01.png);
@@ -63,7 +65,7 @@
   --img-js: url(../assets/logo-languages/js-dark.svg);
 
   /*Background*/
-  --background: rgba(255, 255, 255, 1);
+  --background: url(../assets/background/background-light.jpg);
   --about-background: url(../assets/background/quadro-preto.png);
 
   /*Text*/
