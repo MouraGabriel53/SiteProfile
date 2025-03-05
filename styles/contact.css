@@ -6,8 +6,7 @@
 
 #contact-section {
   display: block;
-  width: fit-content;
-  height: fit-content;
+  height: 1440px;
 }
 
 #contact-section header {
@@ -39,4 +38,40 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+#contact-social {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  padding: 0px 45px;
+  position: relative;
+  bottom: -979px;
+  gap: 45px;
+}
+
+#contact-social a {
+  border-radius: 50%;
+  padding: 15px;
+
+  transition: background 0.2s;
+}
+
+#contact-social ion-icon {
+  width: 50px;
+  height: 50px;
+
+  color: black;
+}
+
+#contact-social a:hover {
+  background: var(--highlight-color);
+}
+
+#contact-social span {
+  width: 442.1px;
+  height: 8px;
+  margin: auto;
+
+  background-color: var(--separator-bar);
 }
