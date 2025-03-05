@@ -31,7 +31,7 @@
   --text-color-projects-title-shadow: rgba(0, 0, 71, 1);
 
   /*Objects*/
-  --img-project-01: url(../assets/contents/project-01-dark.png);
+  --img-project-01: url(../assets/contents/project-01.png);
   --img-project-02: url(../assets/contents/project-02.png);
   --img-project-03: url(../assets/contents/project-03.png);
 
@@ -77,7 +77,6 @@
   );
 
   /*Objects*/
-  --img-project-01: url(../assets/contents/project-01-light.png);
   --cards-background: rgba(196, 191, 178, 1);
 
   /*Buttons*/
