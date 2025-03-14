@@ -5,19 +5,30 @@
 }
 
 #contact-section {
-  display: block;
+  display: flex;
+  width: 100%;
   height: 1440px;
+  flex-direction: column;
 
   background: var(--background-special) no-repeat top center/cover;
 }
 
-#contact-section header {
-  display: block;
-  width: fit-content;
+#contact-content {
+  display: flex;
+  width: 100%;
   height: fit-content;
+  flex-direction: row;
 }
 
-#contact-section header h1 {
+#contact-content header {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 240px;
+  margin: 430px 0px 0px 100px;
+}
+
+#contact-content header h1 {
   color: var(--text-color-projects-title);
   text-align: left;
   font-family: Poppins;
@@ -27,10 +38,9 @@
   line-height: normal;
 }
 
-#contact-section header h2 {
+#contact-content header h2 {
   position: relative;
-  top: -48px;
-  left: 40px;
+  top: -40px;
 
   color: var(--text-color-white);
   text-align: right;
@@ -41,14 +51,14 @@
   line-height: normal;
 }
 
-#contact-section form {
+#contact-content form {
   display: flex;
-  width: fit-content;
-  height: fit-content;
+  width: 540px;
+  height: 464px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: auto;
+  margin: 488px auto 0px auto;
   gap: 22px;
 }
 
@@ -110,7 +120,7 @@
   background-color: var(--contact-inputs-background);
 }
 
-#contact-section button {
+#contact-content button {
   display: flex;
   width: 180px;
   height: 40px;
@@ -120,8 +130,8 @@
   gap: 20px;
 
   border-radius: 30px;
-  border: 2px solid var(--button-dark-purple);
-  background: var(--button-dark-purple);
+  border: 2px solid var(--button-light-purple);
+  background: var(--button-light-purple);
 
   color: var(--button-text-white);
   text-align: center;
@@ -133,32 +143,80 @@
   text-decoration: none;
 }
 
-#contact-section button:hover {
+#contact-content ion-icon {
+  width: 20px;
+  height: 20px;
+
+  color: black;
+}
+
+#contact-content #button-icon {
+  width: 10px;
+  height: 10px;
+
+  color: white;
+}
+
+#contact-content button:hover {
   transition: background-color 0.3s ease;
   background-color: transparent;
-
-  color: var(--button-text-dark-purple);
   cursor: pointer;
 }
 
+#contact-content button:hover #button-icon {
+  animation: arrow-animation 1s;
+}
+
+@keyframes arrow-animation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 #contact-social {
+  display: block;
+  width: fit-content;
+  height: 112px;
+  margin: 293px auto 0px auto;
+}
+
+#contact-social p {
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#div-social-links {
   display: flex;
-  width: 100%;
-  height: 80px;
-  justify-content: center;
-  padding: 0px 45px;
-  margin: 500px 0px;
+  width: fit-content;
+  height: fit-content;
+  align-content: center;
+  margin-top: 20px;
   gap: 45px;
 }
 
-#contact-social a {
-  border-radius: 50%;
-  padding: 15px;
+#div-social-links a {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
 
-  transition: background 0.2s;
+  border-radius: 50%;
+  padding: 10px;
 }
 
-#contact-social ion-icon {
+#div-social-links ion-icon {
   width: 50px;
   height: 50px;
 
@@ -166,13 +224,6 @@
 }
 
 #contact-social a:hover {
+  transition: 200ms;
   background: var(--highlight-color);
-}
-
-#contact-social span {
-  width: 442.1px;
-  height: 8px;
-  margin: auto;
-
-  background-color: var(--separator-bar);
 }
