@@ -67,6 +67,7 @@ const translation = {
     headerTwoContactsTrans: "fazer um projeto juntos?",
     buttonTextContactsTrans:
       "Enviar mensagem <ion-icon name='send'></ion-icon>",
+    textContactsTrans: "🔔 Siga-me",
   },
   en: {
     // Header
@@ -134,6 +135,7 @@ const translation = {
     headerOneContactsTrans: "Let's",
     headerTwoContactsTrans: "work on a project together?",
     buttonTextContactsTrans: "Send message <ion-icon name='send'></ion-icon>",
+    textContactsTrans: "🔔 Follow me",
   },
 }
 
@@ -247,6 +249,8 @@ function translateTo() {
     translation[lang].headerTwoContactsTrans
   document.getElementById("buttonTextContactsTrans").innerHTML =
     translation[lang].buttonTextContactsTrans
+  document.getElementById("textContactsTrans").textContent =
+    translation[lang].textContactsTrans
 }
 
 function toggleLanguage() {
