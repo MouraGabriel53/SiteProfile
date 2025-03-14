@@ -1,388 +1,272 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta name="description" content="Site portifólio de Gabriel Moura" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles/general.css" type="text/css" />
-    <link rel="stylesheet" href="./styles/header.css" type="text/css" />
-    <link rel="stylesheet" href="./styles/cover.css" type="text/css" />
-    <link rel="stylesheet" href="./styles/about.css" type="text/css" />
-    <link rel="stylesheet" href="./styles/works.css" type="text/css" />
-    <link rel="stylesheet" href="./styles/skills.css" type="text/css" />
-    <link rel="stylesheet" href="./styles/projects.css" type="text/css" />
-    <link rel="stylesheet" href="./styles/contact.css" type="text/css" />
-    <link rel="stylesheet" href="./styles/footer.css" type="text/css" />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="./assets/icons/icon-web.png"
-    />
-    <title>Gabriel Moura | Website</title>
-  </head>
 
-  <body>
-    <!--Header-->
-    <header id="header-header">
-      <nav>
-        <div id="nav-logo">
-          <img id="imgProfile" src="./assets/icons/logo-dark.png" alt="Logo" />
-          <h1>Gabriel Moura</h1>
+<head>
+  <meta name="description" content="Site portifólio de Gabriel Moura" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/general.css" type="text/css" />
+  <link rel="stylesheet" href="./styles/header.css" type="text/css" />
+  <link rel="stylesheet" href="./styles/cover.css" type="text/css" />
+  <link rel="stylesheet" href="./styles/about.css" type="text/css" />
+  <link rel="stylesheet" href="./styles/works.css" type="text/css" />
+  <link rel="stylesheet" href="./styles/skills.css" type="text/css" />
+  <link rel="stylesheet" href="./styles/projects.css" type="text/css" />
+  <link rel="stylesheet" href="./styles/contact.css" type="text/css" />
+  <link rel="stylesheet" href="./styles/footer.css" type="text/css" />
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/icons/icon-web.png" />
+  <title>Gabriel Moura | Website</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header id="header-header">
+    <nav>
+      <div id="nav-logo">
+        <img id="imgProfile" src="./assets/icons/logo-dark.png" alt="Logo" />
+        <h1>Gabriel Moura</h1>
+      </div>
+      <div id="nav-options">
+        <a id="linkAboutTrans" href="#about-article">Sobre</a>
+        <a id="linkWorksTrans" href="#works-article">Trabalhos</a>
+        <a id="linkSkillsTrans" href="#skills-article">Habilidades</a>
+        <a id="linkProjectsTrans" href="#projects-article">Projetos</a>
+        <a id="linkContactTrans" href="#contact-article">Contato</a>
+      </div>
+      <div id="nav-button">
+        <button id="nav-button-language" onclick="toggleLanguage()">
+          <img id="imgLanguage" src="./assets/icons/br.png" alt="Brazil flag" />
+          <span id="selectedLanguage">PT</span>
+        </button>
+        <button id="nav-button-mode" onclick="toggleMode()">
+          <span><img id="iconMode" src="./assets/icons/night-icon.svg" alt="Day icon" /></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <!--Cover-->
+  <article id="cover-article">
+    <section id="cover-section">
+      <h1 id="headerCoverTrans">Olá, eu sou Gabriel Moura.</h1>
+      <p id="textCoverTrans">Just code!</p>
+      <div>
+        <button id="cover-button-resume">
+          <a id="buttonResumeCoverTrans" href="./assets/contents/Currículo_Gabriel_Moura_TI.pdf" target="_blank">Baixar
+            currículo</a>
+        </button>
+        <button id="cover-button-contact">
+          <a id="buttonContactCoverTrans" href="#contact-article" target="_blank">Entrar em contato</a>
+        </button>
+      </div>
+    </section>
+  </article>
+  <!--About-->
+  <article id="about-article">
+    <section id="about-section">
+      <header>
+        <h1 id="headerAboutTrans">SOBRE</h1>
+      </header>
+      <img src="./assets/icons/foto.png" alt="Gabriel Moura's photo" />
+      <div>
+        <p id="textOneAboutTrans">
+          👋 Seja muito bem-vindo ao meu site! Deixa eu te contar um pouco
+          sobre mim.
+        </p>
+        <br />
+        <p id="textTwoAboutTrans">
+          🎓 Sou formado em
+          <strong style="color: var(--text-color-about-special)">Automação Industrial</strong>, pela
+          <strong style="color: var(--text-color-about-special)">ETEC Presidente Vargas.</strong>
+          Foi lá que descobri minha paixão pela área tech. Sempre gostei muito
+          das aulas de programação de sistemas embarcados. Eram um momento de
+          descontração no meio de um turbilhão 🥵 de lições e trabalhos.
+        </p>
+        <br />
+        <p id="textThreeAboutTrans">
+          🚀 Desde então, busco desenvolver cada vez mais meu conhecimento em
+          programação. Agora cursando
+          <strong style="color: var(--text-color-about-special)">Análise e Desenvolvimento de Sistemas (ADS) pela
+            Cruzeiro do Sul
+            Virtual.</strong>
+        </p>
+        <br />
+        <p id="textFourAboutTrans">
+          👨🏻‍💻 Ah, já ía me esquecendo, atualmente trabalho como
+          <strong style="color: var(--text-color-about-special)">estagiário de TI</strong>
+          na
+          <strong style="color: var(--text-color-about-special)">Grafcet | Soluções Técnológicas.</strong>
+        </p>
+        <br />
+        <p id="textFiveAboutTrans">
+          🦥 Foge da preguiça e rola a tela aí pra tu ver meus trabalhos! -
+          Deixa eu escrever errado vai, pufavô 🙃.
+        </p>
+      </div>
+    </section>
+  </article>
+  <!--Works-->
+  <article id="works-article">
+    <section id="works-section">
+      <header>
+        <img src="./assets/contents/recycle.png" alt="Recycle Symbol" />
+        <div id="works-section-header">
+          <h1 id="headerOneWorksTrans">Trabalho</h1>
+          <h2 id="headerTwoWorksTrans">de Conclusão de Curso</h2>
         </div>
-        <div id="nav-options">
-          <a id="linkAboutTrans" href="#about-article">Sobre</a>
-          <a id="linkWorksTrans" href="#works-article">Trabalhos</a>
-          <a id="linkSkillsTrans" href="#skills-article">Habilidades</a>
-          <a id="linkProjectsTrans" href="#projects-article">Projetos</a>
-          <a id="linkContactTrans" href="#contact-article">Contato</a>
-        </div>
-        <div id="nav-button">
-          <button id="nav-button-language" onclick="toggleLanguage()">
-            <img
-              id="imgLanguage"
-              src="./assets/icons/br.png"
-              alt="Brazil flag"
-            />
-            <span id="selectedLanguage">PT</span>
-          </button>
-          <button id="nav-button-mode" onclick="toggleMode()">
-            <span
-              ><img
-                id="iconMode"
-                src="./assets/icons/night-icon.svg"
-                alt="Day icon"
-            /></span>
-          </button>
-        </div>
-      </nav>
-    </header>
-    <!--Cover-->
-    <article id="cover-article">
-      <section id="cover-section">
-        <h1 id="headerCoverTrans">Olá, eu sou Gabriel Moura.</h1>
-        <p id="textCoverTrans">Just code!</p>
-        <div>
-          <button id="cover-button-resume">
-            <a
-              id="buttonResumeCoverTrans"
-              href="./assets/contents/Currículo_Gabriel_Moura_TI.pdf"
-              target="_blank"
-              >Baixar currículo</a
-            >
-          </button>
-          <button id="cover-button-contact">
-            <a
-              id="buttonContactCoverTrans"
-              href="#contact-article"
-              target="_blank"
-              >Entrar em contato</a
-            >
-          </button>
-        </div>
-      </section>
-    </article>
-    <!--About-->
-    <article id="about-article">
-      <section id="about-section">
-        <header>
-          <h1 id="headerAboutTrans">SOBRE</h1>
-        </header>
-        <img src="./assets/icons/foto.png" alt="Gabriel Moura's photo" />
-        <div>
-          <p id="textOneAboutTrans">
-            👋 Seja muito bem-vindo ao meu site! Deixa eu te contar um pouco
-            sobre mim.
-          </p>
-          <br />
-          <p id="textTwoAboutTrans">
-            🎓 Sou formado em
-            <strong style="color: var(--text-color-about-special)"
-              >Automação Industrial</strong
-            >, pela
-            <strong style="color: var(--text-color-about-special)"
-              >ETEC Presidente Vargas.</strong
-            >
-            Foi lá que descobri minha paixão pela área tech. Sempre gostei muito
-            das aulas de programação de sistemas embarcados. Eram um momento de
-            descontração no meio de um turbilhão 🥵 de lições e trabalhos.
-          </p>
-          <br />
-          <p id="textThreeAboutTrans">
-            🚀 Desde então, busco desenvolver cada vez mais meu conhecimento em
-            programação. Agora cursando
-            <strong style="color: var(--text-color-about-special)"
-              >Análise e Desenvolvimento de Sistemas (ADS) pela Cruzeiro do Sul
-              Virtual.</strong
-            >
-          </p>
-          <br />
-          <p id="textFourAboutTrans">
-            👨🏻‍💻 Ah, já ía me esquecendo, atualmente trabalho como
-            <strong style="color: var(--text-color-about-special)"
-              >estagiário de TI</strong
-            >
-            na
-            <strong style="color: var(--text-color-about-special)"
-              >Grafcet | Soluções Técnológicas.</strong
-            >
-          </p>
-          <br />
-          <p id="textFiveAboutTrans">
-            🦥 Foge da preguiça e rola a tela aí pra tu ver meus trabalhos! -
-            Deixa eu escrever errado vai, pufavô 🙃.
-          </p>
-        </div>
-      </section>
-    </article>
-    <!--Works-->
-    <article id="works-article">
-      <section id="works-section">
-        <header>
-          <img src="./assets/contents/recycle.png" alt="Recycle Symbol" />
-          <div id="works-section-header">
-            <h1 id="headerOneWorksTrans">Trabalho</h1>
-            <h2 id="headerTwoWorksTrans">de Conclusão de Curso</h2>
-          </div>
-        </header>
-        <div id="works-container">
-          <h1 id="headerThreeWorksTrans">
-            Sistema de Produção de Filamentos Sustentáveis
-          </h1>
-          <div id="works-container-elements">
-            <div>
-              <p id="textOneWorksTrans">
-                O meu <strong>Trauma pós Conclusão de Curso</strong>, como
-                carinhosamente chamo o TCC, foi baseado em
-                <strong>causas sustentáveis</strong>, principalmente a
-                <strong>reciclagem cíclica</strong>.
-              </p>
-              <br />
-              <p id="textTwoWorksTrans">
-                “O projeto visa desenvolver um sistema para converter garrafas
-                PET recicladas em filamentos para impressoras 3D. A proposta
-                oferece uma alternativa sustentável aos filamentos tradicionais,
-                o que reduz o impacto ambiental e reaproveita os materiais
-                recicláveis de forma eficiente.” - Trecho retirado do artigo que
-                escrevi.
-              </p>
-              <br />
-              <p id="textThreeWorksTrans">
-                Clique no botão para saber mais! ⬇️
-              </p>
-            </div>
-            <img src="./assets/contents/3D-project.png" alt="3D project" />
-          </div>
-          <span></span>
-          <button id="works-button-article">
-            <a
-              id="buttonWorksTrans"
-              href="./assets/contents/Artigo_PDF_v0.3.pdf"
-              target="_blank"
-              >Ver artigo completo</a
-            >
-          </button>
-        </div>
-        <img
-          id="image-logo"
-          src="./assets/contents/logo-noggers.png"
-          alt="Logo Noggers"
-        />
-      </section>
-    </article>
-    <!--Skills-->
-    <article id="skills-article">
-      <section id="skills-section">
-        <header>
-          <h1 id="headerOneSkillsTrans">Linguagens</h1>
-          <h2 id="headerTwoSkillsTrans">mais utilizadas</h2>
-        </header>
-        <div id="skills-container">
-          <div class="skills-container-lang">
-            <span class="imgPython"></span>
-            <h1 id="headerOneLangTrans">Python</h1>
-            <p id="textOneLangTrans">
-              Serve para quase tudo, menos para lavar a louça
+      </header>
+      <div id="works-container">
+        <h1 id="headerThreeWorksTrans">
+          Sistema de Produção de Filamentos Sustentáveis
+        </h1>
+        <div id="works-container-elements">
+          <div>
+            <p id="textOneWorksTrans">
+              O meu <strong>Trauma pós Conclusão de Curso</strong>, como
+              carinhosamente chamo o TCC, foi baseado em
+              <strong>causas sustentáveis</strong>, principalmente a
+              <strong>reciclagem cíclica</strong>.
             </p>
-            <span></span>
-          </div>
-          <div class="skills-container-lang">
-            <span class="imgCpp"></span>
-            <h1 id="headerTwoLangTrans">C++</h1>
-            <p id="textTwoLangTrans">É cada [;] que a gente esquece</p>
-            <span></span>
-          </div>
-          <div class="skills-container-lang">
-            <span class="imgHtml"></span>
-            <h1 id="headerThreeLangTrans">HTML</h1>
-            <p id="textThreeLangTrans">
-              Eleita a melhor "linguagem de programação" do ano
+            <br />
+            <p id="textTwoWorksTrans">
+              “O projeto visa desenvolver um sistema para converter garrafas
+              PET recicladas em filamentos para impressoras 3D. A proposta
+              oferece uma alternativa sustentável aos filamentos tradicionais,
+              o que reduz o impacto ambiental e reaproveita os materiais
+              recicláveis de forma eficiente.” - Trecho retirado do artigo que
+              escrevi.
             </p>
-            <span></span>
+            <br />
+            <p id="textThreeWorksTrans">
+              Clique no botão para saber mais! ⬇️
+            </p>
           </div>
-          <div class="skills-container-lang">
-            <span class="imgCss"></span>
-            <h1 id="headerFourLangTrans">CSS</h1>
-            <p id="textFourLangTrans">O famoso filtro do instagram para devs</p>
-            <span></span>
-          </div>
-          <div class="skills-container-lang">
-            <span class="imgJs"></span>
-            <h1 id="headerFiveLangTrans">JavaScript</h1>
-            <p id="textFiveLangTrans">Um primo distante do Java</p>
-            <span></span>
-          </div>
+          <img src="./assets/contents/3D-project.png" alt="3D project" />
         </div>
-      </section>
-    </article>
-    <!--Projects-->
-    <article id="projects-article">
-      <section id="projects-section">
-        <header>
-          <h1 id="headerOneProjectsTrans" id="projects-title-shadow">
-            Projetos
-          </h1>
-          <h1 id="headerTwoProjectsTrans" id="projects-title">Projetos</h1>
-          <h2 id="headerThreeProjectsTrans">os melhores</h2>
-        </header>
-        <div id="projects-one">
-          <div class="cards-animation" id="projects-img-one"></div>
-          <div class="cards-animation" id="projects-text-one">
-            <p id="textOneProjectsTrans">Site para portfólio pessoal</p>
-          </div>
-          <div class="cards-animation" id="projects-div-decoration-one"></div>
-          <div class="cards-animation" id="projects-div-languages-one">
-            <span class="imgHtml"></span>
-            <span class="imgCss"></span>
-            <span class="imgJs"></span>
-          </div>
-          <button>
-            <a
-              id="textTwoProjectsTrans"
-              href="https://github.com/MouraGabriel53/SiteProfile"
-              target="_blank"
-              >Ver projeto no GitHub</a
-            >
-          </button>
-        </div>
-        <div id="projects-two">
-          <div class="cards-animation" id="projects-text-two">
-            <p id="textThreeProjectsTrans">Automação de tarefas</p>
-          </div>
-          <div class="cards-animation" id="projects-img-two"></div>
-          <div class="cards-animation" id="projects-div-languages-two">
-            <span class="imgPython"></span>
-          </div>
-          <div class="cards-animation" id="projects-div-decoration-two"></div>
-          <button id="projects-div-decoration-two">
-            <a
-              id="textFourProjectsTrans"
-              href="https://github.com/MouraGabriel53/AutomacaoPY_Arquivos"
-              target="_blank"
-              >Ver projeto no GitHub</a
-            >
-          </button>
-        </div>
-        <div id="projects-three">
-          <div class="cards-animation" id="projects-text-three">
-            <p id="textFiveProjectsTrans">Agrupador de links</p>
-          </div>
-          <button id="projects-div-decoration-three">
-            <a
-              id="textSixProjectsTrans"
-              href="https://github.com/MouraGabriel53/DevLinks"
-              target="_blank"
-              >Ver projeto no GitHub</a
-            >
-          </button>
-          <div class="cards-animation" id="projects-div-decoration-three"></div>
-          <div class="cards-animation" id="projects-div-languages-three">
-            <span class="imgHtml"></span>
-            <span class="imgCss"></span>
-            <span class="imgJs"></span>
-          </div>
-          <div class="cards-animation" id="projects-img-three"></div>
-        </div>
-      </section>
-    </article>
-    <!--Contacts-->
-    <article id="contact-article">
-      <section id="contact-section">
-        <header>
-          <h1 id="headerOneContactsTrans">Bora</h1>
-          <h2 id="headerTwoContactsTrans">fazer um projeto juntos?</h2>
-        </header>
-        <form action="">
-          <div class="div-inputs">
-            <ion-icon name="person"></ion-icon> |
-            <input
-              type="text"
-              name="name"
-              autocomplete="name"
-              placeholder="Digite seu nome"
-              required
-              maxlength="50"
-            />
-          </div>
-          <div class="div-inputs">
-            <ion-icon name="mail"></ion-icon> |
-            <input
-              type="email"
-              name="email"
-              autocomplete="email"
-              placeholder="Digite seu melhor e-mail"
-              required
-              maxlength="50"
-            />
-          </div>
-          <div class="div-textarea">
-            <ion-icon name="text"></ion-icon> |
-            <textarea
-              name="message"
-              placeholder="Faça uma breve descrição sobre o projeto que deseja realizar"
-              required
-              maxlength="300"
-            ></textarea>
-          </div>
-          <button id="buttonTextContactsTrans" type="submit">
-            Enviar mensagem
-            <ion-icon name="send"></ion-icon>
-          </button>
-        </form>
-        <div id="contact-social">
-          <span></span>
-          <a href="https://github.com/MouraGabriel53" target="_blank">
-            <ion-icon name="logo-github"></ion-icon>
-          </a>
-          <a href="https://www.linkedin.com/in/gabrielnmoura/" target="_blank">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-          <a href="mailto:contato.gabrielnmoura@gmail.com" target="_blank">
-            <ion-icon name="mail-outline"></ion-icon
-          ></a>
-          <a href="https://discord.gg/ZhjX5MjC" target="_blank">
-            <ion-icon name="logo-discord"></ion-icon
-          ></a>
+        <span></span>
+        <button id="works-button-article">
+          <a id="buttonWorksTrans" href="./assets/contents/Artigo_PDF_v0.3.pdf" target="_blank">Ver artigo completo</a>
+        </button>
+      </div>
+      <img id="image-logo" src="./assets/contents/logo-noggers.png" alt="Logo Noggers" />
+    </section>
+  </article>
+  <!--Skills-->
+  <article id="skills-article">
+    <section id="skills-section">
+      <header>
+        <h1 id="headerOneSkillsTrans">Linguagens</h1>
+        <h2 id="headerTwoSkillsTrans">mais utilizadas</h2>
+      </header>
+      <div id="skills-container">
+        <div class="skills-container-lang">
+          <span class="imgPython"></span>
+          <h1 id="headerOneLangTrans">Python</h1>
+          <p id="textOneLangTrans">
+            Serve para quase tudo, menos para lavar a louça
+          </p>
           <span></span>
         </div>
-      </section>
-    </article>
-    <!--Footer-->
-    <footer>
-      <a
-        href="https://github.com/MouraGabriel53/SiteProfile/blob/main/LICENSE"
-        target="_blank"
-        >Copyrigth</a
-      >
-      &nbsp;&copy 2025 Gabriel Moura
-    </footer>
-    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
-    <script src="scripts/toggleMode.js" type="text/JavaScript"></script>
-    <script src="scripts/translateTo.js" type="text/JavaScript"></script>
-  </body>
+        <div class="skills-container-lang">
+          <span class="imgCpp"></span>
+          <h1 id="headerTwoLangTrans">C++</h1>
+          <p id="textTwoLangTrans">É cada [;] que a gente esquece</p>
+          <span></span>
+        </div>
+        <div class="skills-container-lang">
+          <span class="imgHtml"></span>
+          <h1 id="headerThreeLangTrans">HTML</h1>
+          <p id="textThreeLangTrans">
+            Eleita a melhor "linguagem de programação" do ano
+          </p>
+          <span></span>
+        </div>
+        <div class="skills-container-lang">
+          <span class="imgCss"></span>
+          <h1 id="headerFourLangTrans">CSS</h1>
+          <p id="textFourLangTrans">O famoso filtro do instagram para devs</p>
+          <span></span>
+        </div>
+        <div class="skills-container-lang">
+          <span class="imgJs"></span>
+          <h1 id="headerFiveLangTrans">JavaScript</h1>
+          <p id="textFiveLangTrans">Um primo distante do Java</p>
+          <span></span>
+        </div>
+      </div>
+    </section>
+  </article>
+  <!--Projects-->
+  <article id="projects-article">
+    <section id="projects-section">
+      <header>
+        <h1 id="headerOneProjectsTrans" class="projects-title-shadow">
+          Projetos
+        </h1>
+        <h1 id="headerTwoProjectsTrans" class="projects-title">Projetos</h1>
+        <h2 id="headerThreeProjectsTrans">os melhores</h2>
+      </header>
+      <div id="projects-one">
+        <div class="cards-animation" id="projects-img-one"></div>
+        <div class="cards-animation" id="projects-text-one">
+          <p id="textOneProjectsTrans">Site para portfólio pessoal</p>
+        </div>
+        <div class="cards-animation" id="projects-div-decoration-one"></div>
+        <div class="cards-animation" id="projects-div-languages-one">
+          <span class="imgHtml"></span>
+          <span class="imgCss"></span>
+          <span class="imgJs"></span>
+        </div>
+        <button>
+          <a id="textTwoProjectsTrans" href="https://github.com/MouraGabriel53/SiteProfile" target="_blank">Ver projeto
+            no GitHub</a>
+        </button>
+      </div>
+      <div id="projects-two">
+        <div class="cards-animation" id="projects-text-two">
+          <p id="textThreeProjectsTrans">Automação de tarefas</p>
+        </div>
+        <div class="cards-animation" id="projects-img-two"></div>
+        <div class="cards-animation" id="projects-div-languages-two">
+          <span class="imgPython"></span>
+        </div>
+        <div class="cards-animation" id="projects-div-decoration-two"></div>
+        <button id="projects-div-decoration-two">
+          <a id="textFourProjectsTrans" href="https://github.com/MouraGabriel53/AutomacaoPY_Arquivos"
+            target="_blank">Ver projeto no GitHub</a>
+        </button>
+      </div>
+      <div id="projects-three">
+        <div class="cards-animation" id="projects-text-three">
+          <p id="textFiveProjectsTrans">Agrupador de links</p>
+        </div>
+        <button id="projects-div-decoration-three">
+          <a id="textSixProjectsTrans" href="https://github.com/MouraGabriel53/DevLinks" target="_blank">Ver projeto no
+            GitHub</a>
+        </button>
+        <div class="cards-animation" id="projects-div-decoration-three"></div>
+        <div class="cards-animation" id="projects-div-languages-three">
+          <span class="imgHtml"></span>
+          <span class="imgCss"></span>
+          <span class="imgJs"></span>
+        </div>
+        <div class="cards-animation" id="projects-img-three"></div>
+      </div>
+    </section>
+  </article>
+  <!--Contacts-->
+  <article id="contact-article">
+    <section id="contact-section">
+      
+    </section>
+  </article>
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  <script src="scripts/toggleMode.js" type="text/JavaScript"></script>
+  <script src="scripts/translateTo.js" type="text/JavaScript"></script>
+</body>
+
 </html>

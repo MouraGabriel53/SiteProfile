@@ -47,8 +47,8 @@
 }
 
 #about-section div {
-  flex: 1;
-  max-width: 600px;
+  width: 600px;
+  height: 480px;
 }
 
 #about-section div p {

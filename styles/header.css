@@ -106,7 +106,7 @@
 }
 
 #nav-options a:hover {
-  transition: 250ms;
+  transition: 150ms;
   color: var(--text-color-animation);
 }
 

@@ -19,7 +19,7 @@
   margin: 0px auto;
 }
 
-#projects-title-shadow {
+.projects-title-shadow {
   color: var(--text-color-projects-title-shadow);
   text-align: center;
   font-family: Poppins;
@@ -28,7 +28,7 @@
   font-weight: 800;
 }
 
-#projects-title {
+.projects-title {
   translate: -10px;
   transform: translateY(-198px);
 

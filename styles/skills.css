@@ -129,6 +129,7 @@
 .skills-container-lang span {
   width: 60px;
   height: 5px;
+  margin-top: 25px;
 
   background: var(--separator-bar);
 }

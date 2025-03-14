@@ -14,7 +14,7 @@ const translation = {
     buttonContactCoverTrans: "Entrar em contato",
 
     // About
-    headerAboutTrans: "Sobre",
+    headerAboutTrans: "SOBRE",
     textOneAboutTrans:
       "👋 Seja muito bem-vindo ao meu site! Deixa eu te contar um pouco sobre mim.",
     textTwoAboutTrans:
@@ -65,7 +65,8 @@ const translation = {
     // Contacts
     headerOneContactsTrans: "Bora",
     headerTwoContactsTrans: "fazer um projeto juntos?",
-    buttonTextContactsTrans: "Enviar mensagem <ion-icon name='send'></ion-icon>",
+    buttonTextContactsTrans:
+      "Enviar mensagem <ion-icon name='send'></ion-icon>",
   },
   en: {
     // Header
@@ -82,7 +83,7 @@ const translation = {
     buttonContactCoverTrans: "Get in touch",
 
     // About
-    headerAboutTrans: "About",
+    headerAboutTrans: "ABOUT",
     textOneAboutTrans:
       "👋 Welcome to my website! Here you'll see some things about me.",
     textTwoAboutTrans:
@@ -91,7 +92,7 @@ const translation = {
       '🚀 Since then, I have been striving to further develop my programming knowledge. I am now pursuing a degree in <strong style="color: var(--text-color-about-special)">Systems Analysis and Development (SAD)</strong> at <strong style="color: var(--text-color-about-special)">Cruzeiro do Sul Virtual.</strong>',
     textFourAboutTrans:
       '👨🏻‍💻 Oh, I almost forgot — I currently work as an <strong style="color: var(--text-color-about-special)">IT intern</strong> at <strong style="color: var(--text-color-about-special)">Grafcet | Technical Solutions.</strong>',
-    textFiveAboutTrans: "🦥 Don’t be lazy—scroll down to check out my work!",
+    textFiveAboutTrans: "🦥 Don’t be lazy — scroll down to check out my work!",
 
     // Works
     headerOneWorksTrans: "Final",
