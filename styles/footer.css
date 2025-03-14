@@ -5,9 +5,9 @@ footer {
   align-items: center;
   justify-content: center;
 
-  background-color: var(--cards-background);
+  background-color: rgba(44, 19, 239, 1);
 
-  color: var(--text-color-white);
+  color: white;
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
@@ -16,7 +16,7 @@ footer {
 }
 
 footer a {
-  color: var(--text-color-white);
+  color: white;
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;

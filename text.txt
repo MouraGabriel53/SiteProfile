@@ -58,12 +58,4 @@
         </div>
       </section>
     </article>
-    <!--Footer-->
-    <footer>
-      <a
-        href="https://github.com/MouraGabriel53/SiteProfile/blob/main/LICENSE"
-        target="_blank"
-        >Copyrigth</a
-      >
-      &nbsp;&copy 2025 Gabriel Moura
-    </footer>
+   
