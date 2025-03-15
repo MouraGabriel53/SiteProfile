@@ -37,7 +37,7 @@
   --text-color-projects-title-shadow: rgba(0, 0, 71, 1);
 
   --text-color-projects-content: rgba(237, 235, 231, 1);
-
+  
   /*Objects*/
   --img-project-01: url(../assets/contents/project-01.png);
   --img-project-02: url(../assets/contents/project-02.png);
@@ -79,8 +79,6 @@
   --text-color-dark: rgba(237, 235, 231, 1);
   --text-color-animation: rgba(44, 19, 239, 0.2);
 
-  --text-color-about-special: rgba(44, 19, 239, 0.7);
-
   --text-color-about-title: linear-gradient(
     to top,
     rgba(249, 249, 247, 1) 50%,
@@ -102,4 +100,5 @@ html {
 
 body {
   background: var(--background) no-repeat top center/cover;
+  overflow-x: hidden;
 }

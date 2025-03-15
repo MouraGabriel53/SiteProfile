@@ -22,7 +22,7 @@ const translation = {
     textThreeAboutTrans:
       '🚀 Desde então, busco desenvolver cada vez mais meu conhecimento em programação. Agora cursando <strong style="color: var(--text-color-about-special)">Análise e Desenvolvimento de Sistemas (ADS)</strong> pela <strong style="color: var(--text-color-about-special)">Cruzeiro do Sul Virtual.</strong>',
     textFourAboutTrans:
-      '👨🏻‍💻 Ah, já ía me esquecendo, atualmente trabalho como <strong style="color: var(--text-color-about-special)">estagiário de TI</strong> na <strong style="color: var(--text-color-about-special)">Grafcet | Soluções Técnológicas.</strong>',
+      '👨🏻‍💻 Ah, já ía me esquecendo, atualmente trabalho como <strong style="color: var(--text-color-about-special)">estagiário de TI</strong> na <strong style="color: var(--text-color-about-special)">Grafcet | Soluções Tecnológicas.</strong>',
     textFiveAboutTrans:
       "🦥 Foge da preguiça e rola a tela aí pra tu ver meus trabalhos! - Deixa eu escrever errado vai, pufavô 🙃.",
 
@@ -31,7 +31,7 @@ const translation = {
     headerTwoWorksTrans: "de Conclusão de Curso",
     headerThreeWorksTrans: "Sistema de Produção de Filamentos Sustentáveis",
     textOneWorksTrans:
-      'O meu <strong style="color: var(--text-color-about-special)">Trauma pós Conclusão de Curso</strong>, como carinhosamente chamo o TCC, foi baseado em <strong style="color: var(--text-color-about-special)">causas sustentáveis</strong>, principalmente a <strong style="color: var(--text-color-about-special)">reciclagem cíclica</strong>.',
+      "O meu <strong>Trauma pós Conclusão de Curso</strong>, como carinhosamente chamo o TCC, foi baseado em <strong>causas sustentáveis</strong>, principalmente a <strong>reciclagem cíclica</strong>.",
     textTwoWorksTrans:
       "“O projeto visa desenvolver um sistema para converter garrafas PET recicladas em filamentos para impressoras 3D. A proposta oferece uma alternativa sustentável aos filamentos tradicionais, o que reduz o impacto ambiental e reaproveita os materiais recicláveis de forma eficiente.” - Trecho retirado do artigo que escrevi.",
     textThreeWorksTrans: " Clique no botão para saber mais! ⬇️",
@@ -100,7 +100,7 @@ const translation = {
     headerTwoWorksTrans: "Course Project",
     headerThreeWorksTrans: "Sustainable Filament Production System",
     textOneWorksTrans:
-      'My <strong style="color: var(--text-color-about-special)">Post-Course Trauma</strong>, as I affectionately call my final project, was based on <strong style="color: var(--text-color-about-special)">sustainable causes</strong>, especially <strong style="color: var(--text-color-about-special)">cyclic recycling</strong>.',
+      "My <strong>Post-Course Trauma</strong>, as I affectionately call my final project, was based on <strong>sustainable causes</strong>, especially <strong>cyclic recycling</strong>.",
     textTwoWorksTrans:
       "“The project aims to develop a system to convert recycled PET bottles into filaments for 3D printers. The proposal offers a sustainable alternative to traditional filaments, reducing environmental impact and efficiently reusing recyclable materials.” - Excerpt from the article I wrote.",
     textThreeWorksTrans: " Click the button to learn more! ⬇️",
