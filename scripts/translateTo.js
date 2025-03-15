@@ -66,7 +66,7 @@ const translation = {
     headerOneContactsTrans: "Bora",
     headerTwoContactsTrans: "fazer um projeto juntos?",
     buttonTextContactsTrans:
-      "Enviar mensagem <ion-icon name='send'></ion-icon>",
+      'Enviar mensagem <ion-icon id="button-icon" name="send"></ion-icon>',
     textContactsTrans: "🔔 Siga-me",
   },
   en: {
@@ -134,7 +134,8 @@ const translation = {
     // Contacts
     headerOneContactsTrans: "Let's",
     headerTwoContactsTrans: "work on a project together?",
-    buttonTextContactsTrans: "Send message <ion-icon name='send'></ion-icon>",
+    buttonTextContactsTrans:
+      'Send message <ion-icon id="button-icon" name="send"></ion-icon>',
     textContactsTrans: "🔔 Follow me",
   },
 }
