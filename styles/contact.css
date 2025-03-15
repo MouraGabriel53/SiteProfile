@@ -167,18 +167,6 @@
   animation: arrow-animation 1s;
 }
 
-@keyframes arrow-animation {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(8px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
 #contact-social {
   display: block;
   width: fit-content;
@@ -225,5 +213,17 @@
 
 #contact-social a:hover {
   transition: 200ms;
-  background: var(--highlight-color);
+  background: var(--highlight-color-contacts);
+}
+
+@keyframes arrow-animation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

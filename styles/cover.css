@@ -27,26 +27,14 @@
   animation: typing 2s steps(25), blinking 0.5s infinite step-end alternate;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes blinking {
-  50% {
-    border-color: transparent;
-  }
-}
-
 #cover-section p {
   text-align: right;
 
-  color: var(--text-color-white);
+  color: var(--text-color-cover-special);
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 900;
   line-height: normal;
 }
 
@@ -134,4 +122,16 @@
 
 #cover-button-contact:hover a {
   color: var(--button-text-white);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
 }

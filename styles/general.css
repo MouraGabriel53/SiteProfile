@@ -13,7 +13,7 @@
   --img-js: url(../assets/logo-languages/js-light.svg);
 
   /*Background*/
-  --background: url(../assets/background/background-dark.jpg);
+  --background: linear-gradient(180deg, #45433e 0%, #161514 100%);
   --about-background: url(../assets/background/quadro-branco.png);
   --background-special: url(../assets/background/background-special.png);
 
@@ -24,6 +24,8 @@
   --text-color-white: rgba(237, 235, 231, 1);
   --text-color-dark: rgba(22, 21, 20, 1);
   --text-color-animation: rgba(44, 19, 239, 1);
+
+  --text-color-cover-special: rgba(44, 19, 239, 1);
 
   --text-color-about-special: rgba(44, 19, 239, 1);
 
@@ -37,7 +39,7 @@
   --text-color-projects-title-shadow: rgba(0, 0, 71, 1);
 
   --text-color-projects-content: rgba(237, 235, 231, 1);
-  
+
   /*Objects*/
   --img-project-01: url(../assets/contents/project-01.png);
   --img-project-02: url(../assets/contents/project-02.png);
@@ -51,6 +53,7 @@
 
   /*Buttons*/
   --highlight-color: rgba(255, 255, 255, 0.2);
+  --highlight-color-contacts: rgba(255, 255, 255, 0.2);
 
   --button-text-white: rgba(249, 249, 247, 1);
   --button-text-dark-purple: rgba(0, 0, 71, 1);

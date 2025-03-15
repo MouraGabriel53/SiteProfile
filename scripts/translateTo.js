@@ -8,8 +8,8 @@ const translation = {
     linkContactTrans: "Contato",
 
     // Cover
-    headerCoverTrans: "Olá, eu sou Gabriel Moura",
-    textCoverTrans: "Just code!",
+    headerCoverTrans: "Olá, eu sou Gabriel Moura.",
+    textCoverTrans: "Full Stack Developer",
     buttonResumeCoverTrans: "Baixar currículo",
     buttonContactCoverTrans: "Entrar em contato",
 
@@ -78,8 +78,8 @@ const translation = {
     linkContactTrans: "Contact",
 
     // Cover
-    headerCoverTrans: "Hello, I am Gabriel Moura",
-    textCoverTrans: "Just code!",
+    headerCoverTrans: "Hello, I am Gabriel Moura.",
+    textCoverTrans: "Full Stack Developer",
     buttonResumeCoverTrans: "Download resume",
     buttonContactCoverTrans: "Get in touch",
 
