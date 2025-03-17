@@ -400,19 +400,23 @@
         const email = document.getElementById("email").value
         const message = document.getElementById("message").value
 
-        fetch("http://localhost:3000/send-email", {
+        fetch("http://localhost:4000/send-email", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ name, email, message }),
+          body: JSON.stringify({
+            name: name,
+            email: email,
+            message: message,
+          }),
         })
           .then((response) => response.text())
           .then((success) => {
             console.log(success)
-            alert("E-mail enviado com sucesso!")
+            console.info("E-mail enviado com sucesso!")
           })
           .catch((error) => {
             console.error(error)
-            alert("Falha ao enviar e-mail!")
+            console.info("Falha ao enviar e-mail!")
           })
 
         document.getElementById("contact-form").reset()
