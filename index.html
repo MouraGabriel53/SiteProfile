@@ -400,31 +400,32 @@
         const email = document.getElementById("email").value
         const message = document.getElementById("message").value
 
-        fetch("http://localhost:4000/send-email", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            name: name,
-            email: email,
-            message: message,
-          }),
+        document.getElementById("contact-form").reset()
+        sendEmail(name, email, message)
+      })
+      function sendEmail(name, email, message) {
+        Email.send({
+          Host: "smtp.elasticemail.com",
+          Username: "contato.gabrielnmoura@gmail.com",
+          Password: "57318793DA2789821B7F179803674347BF02",
+          To: "contato.gabrielnmoura@gmail.com",
+          From: "contato.gabrielnmoura@gmail.com",
+          Subject: `${name} - Requisição de projeto pelo Website`,
+          Body: `Nome: ${name} E-mail: ${email} Message: ${message}`,
         })
-          .then((response) => response.text())
+
           .then((success) => {
-            console.log(success)
             console.info("E-mail enviado com sucesso!")
           })
           .catch((error) => {
-            console.error(error)
             console.info("Falha ao enviar e-mail!")
           })
-
-        document.getElementById("contact-form").reset()
-      })
+      }
     </script>
     <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
     <script src="scripts/toggleMode.js" type="text/JavaScript"></script>
     <script src="scripts/translateTo.js" type="text/JavaScript"></script>
     <script src="scripts/duplicateSkills.js" type="text/JavaScript"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>
