@@ -1,5 +1,5 @@
-const elemScroll = document.querySelector("#skills-scroll")
-const elemScrollContainer = elemScroll.querySelector("#skills-container")
+const elemScroll = document.getElementById("skills-scroll")
+const elemScrollContainer = elemScroll.getElementById("skills-container")
 const elemScrollChildren = Array.from(elemScrollContainer.children)
 
 elemScrollChildren.forEach((item) => {

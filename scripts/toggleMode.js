@@ -2,8 +2,8 @@ function toggleMode() {
   const html = document.documentElement
   html.classList.toggle("light")
 
-  const imgProfile = document.querySelector("#imgProfile")
-  const iconMode = document.querySelector("#iconMode")
+  const imgProfile = document.getElementById("imgProfile")
+  const iconMode = document.getElementById("iconMode")
 
   html.classList.contains("light")
     ? (imgProfile.setAttribute("src", "./assets/icons/logo-light.png"),

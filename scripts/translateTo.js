@@ -258,8 +258,8 @@ function toggleLanguage() {
   const html = document.documentElement
   html.classList.toggle("language-EN")
 
-  const imgLanguage = document.querySelector("#imgLanguage")
-  const selectedLanguage = document.querySelector("#selectedLanguage")
+  const imgLanguage = document.getElementById("imgLanguage")
+  const selectedLanguage = document.getElementById("selectedLanguage")
 
   if (html.classList.contains("language-EN")) {
     imgLanguage.setAttribute("src", "./assets/icons/eua.png")
