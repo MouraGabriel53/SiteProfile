@@ -13,7 +13,8 @@
   --img-js: url(../assets/logo-languages/js-light.svg);
 
   /*Background*/
-  --background: linear-gradient(180deg, #45433e 0%, #161514 100%);
+  /* --background: linear-gradient(180deg, #45433e 0%, #161514 100%); */
+  --background: url(../assets/background/background-dark.jpg);
   --about-background: url(../assets/background/quadro-branco.png);
   --background-special: url(../assets/background/background-special.png);
 

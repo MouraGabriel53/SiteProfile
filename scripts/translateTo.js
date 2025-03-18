@@ -198,30 +198,36 @@ function translateTo() {
     translation[lang].buttonWorksTrans
 
   // Languages
-  document.getElementById("headerOneSkillsTrans").textContent =
-    translation[lang].headerOneSkillsTrans
-  document.getElementById("headerTwoSkillsTrans").textContent =
-    translation[lang].headerTwoSkillsTrans
-  document.getElementById("headerOneLangTrans").textContent =
-    translation[lang].headerOneLangTrans
-  document.getElementById("textOneLangTrans").textContent =
-    translation[lang].textOneLangTrans
-  document.getElementById("headerTwoLangTrans").textContent =
-    translation[lang].headerTwoLangTrans
-  document.getElementById("textTwoLangTrans").textContent =
-    translation[lang].textTwoLangTrans
-  document.getElementById("headerThreeLangTrans").textContent =
-    translation[lang].headerThreeLangTrans
-  document.getElementById("textThreeLangTrans").textContent =
-    translation[lang].textThreeLangTrans
-  document.getElementById("headerFourLangTrans").textContent =
-    translation[lang].headerFourLangTrans
-  document.getElementById("textFourLangTrans").textContent =
-    translation[lang].textFourLangTrans
-  document.getElementById("headerFiveLangTrans").textContent =
-    translation[lang].headerFiveLangTrans
-  document.getElementById("textFiveLangTrans").textContent =
-    translation[lang].textFiveLangTrans
+  const headerOneLangTrans =
+    document.getElementsByClassName("headerOneLangTrans")
+  const headerTwoLangTrans =
+    document.getElementsByClassName("headerTwoLangTrans")
+  const headerThreeLangTrans = document.getElementsByClassName(
+    "headerThreeLangTrans"
+  )
+  const headerFiveLangTrans = document.getElementsByClassName(
+    "headerFiveLangTrans"
+  )
+
+  const textOneLangTrans = document.getElementsByClassName("textOneLangTrans")
+  const textTwoLangTrans = document.getElementsByClassName("textTwoLangTrans")
+  const textThreeLangTrans =
+    document.getElementsByClassName("textThreeLangTrans")
+  const textFourLangTrans = document.getElementsByClassName("textFourLangTrans")
+  const textFiveLangTrans = document.getElementsByClassName("textFiveLangTrans")
+
+  for (let i = 0; i < 2; i++) {
+    headerOneLangTrans[i].textContent = translation[lang].headerOneLangTrans
+    headerTwoLangTrans[i].textContent = translation[lang].headerTwoLangTrans
+    headerThreeLangTrans[i].textContent = translation[lang].headerThreeLangTrans
+    headerFiveLangTrans[i].textContent = translation[lang].headerFiveLangTrans
+
+    textOneLangTrans[i].textContent = translation[lang].textOneLangTrans
+    textTwoLangTrans[i].textContent = translation[lang].textTwoLangTrans
+    textThreeLangTrans[i].textContent = translation[lang].textThreeLangTrans
+    textFourLangTrans[i].textContent = translation[lang].textFourLangTrans
+    textFiveLangTrans[i].textContent = translation[lang].textFiveLangTrans
+  }
 
   // Projects
   document.getElementById("headerOneProjectsTrans").textContent =

@@ -4,6 +4,6 @@ const elemScrollChildren = Array.from(elemScrollContainer.children)
 
 elemScrollChildren.forEach((item) => {
   const elemDuplicate = item.cloneNode(true)
-  elemDuplicate.setAttribute('area-hidden', 'true')
+  elemDuplicate.setAttribute("area-hidden", "true")
   elemScrollContainer.appendChild(elemDuplicate)
 })
