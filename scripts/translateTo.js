@@ -267,12 +267,30 @@ function toggleLanguage() {
   const imgLanguage = document.getElementById("imgLanguage")
   const selectedLanguage = document.getElementById("selectedLanguage")
 
+  const inputName = document.getElementById("name")
+  const inputEmail = document.getElementById("email")
+  const textArea = document.getElementById("message")
+
   if (html.classList.contains("language-EN")) {
     imgLanguage.setAttribute("src", "./assets/icons/eua.png")
     selectedLanguage.textContent = "EN"
+
+    inputName.setAttribute("placeholder", "Enter your name")
+    inputEmail.setAttribute("placeholder", "Enter your best e-mail")
+    textArea.setAttribute(
+      "placeholder",
+      "Make a brief description of the project you want to carry out."
+    )
   } else {
     imgLanguage.setAttribute("src", "./assets/icons/br.png")
     selectedLanguage.textContent = "PT"
+
+    inputName.setAttribute("placeholder", "Digite seu nome")
+    inputEmail.setAttribute("placeholder", "Digite seu melhor e-mail")
+    textArea.setAttribute(
+      "placeholder",
+      "Faça uma breve descrição sobre o projeto que deseja realizar"
+    )
   }
 
   translateTo()
