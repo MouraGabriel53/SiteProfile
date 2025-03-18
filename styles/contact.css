@@ -10,7 +10,7 @@
   height: 1440px;
   flex-direction: column;
 
-  background: var(--background-special) no-repeat top center/cover;
+  background: var(--background-special) no-repeat center 100px / cover;
 }
 
 #contact-content {
@@ -25,7 +25,7 @@
   flex-direction: column;
   width: 450px;
   height: 240px;
-  margin: 430px 0px 0px 100px;
+  margin: 300px 0px 0px 100px;
 }
 
 #contact-content header h1 {
@@ -58,7 +58,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 488px auto 0px auto;
+  margin: 350px auto 0px auto;
   gap: 22px;
 }
 
@@ -171,7 +171,7 @@
   display: block;
   width: fit-content;
   height: 112px;
-  margin: 293px auto 0px auto;
+  margin: auto auto 100px auto;
 }
 
 #contact-social p {
@@ -189,7 +189,7 @@
   width: fit-content;
   height: fit-content;
   align-content: center;
-  margin-top: 10px;
+  margin-top: 5px;
   gap: 45px;
 }
 

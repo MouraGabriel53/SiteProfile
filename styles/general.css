@@ -81,7 +81,7 @@
   /*Text*/
   --text-color-white: rgba(22, 21, 20, 1);
   --text-color-dark: rgba(237, 235, 231, 1);
-  --text-color-animation: rgba(44, 19, 239, 0.2);
+  --text-color-animation: rgba(44, 19, 239, 1);
 
   --text-color-about-title: linear-gradient(
     to top,
