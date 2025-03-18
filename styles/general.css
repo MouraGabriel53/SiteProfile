@@ -13,10 +13,9 @@
   --img-js: url(../assets/logo-languages/js-light.svg);
 
   /*Background*/
-  /* --background: linear-gradient(180deg, #45433e 0%, #161514 100%); */
-  --background: url(../assets/background/background-dark.jpg);
-  --about-background: url(../assets/background/quadro-branco.png);
-  --background-special: url(../assets/background/background-special.png);
+  --background: url(../assets/background/background-dark.avif);
+  --about-background: url(../assets/background/quadro-branco.avif);
+  --background-special: url(../assets/background/background-special.avif);
 
   --contact-div-background: rgba(196, 191, 178, 1);
   --contact-inputs-background: rgba(176, 172, 160, 1);
@@ -48,7 +47,7 @@
 
   --cards-background: rgba(69, 67, 62, 1);
   --cards-background-special: rgba(237, 235, 231, 1);
-  
+
   --input-icons: rgba(44, 19, 239, 1);
 
   --separator-bar: rgba(249, 249, 247, 1);
@@ -78,7 +77,7 @@
 
   /*Background*/
   --background: url(../assets/background/background-light.jpg);
-  --about-background: url(../assets/background/quadro-preto.png);
+  --about-background: url(../assets/background/quadro-preto.avif);
 
   /*Text*/
   --text-color-white: rgba(22, 21, 20, 1);

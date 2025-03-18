@@ -40,7 +40,12 @@
     <header id="header-header">
       <nav>
         <div id="nav-logo">
-          <img id="imgProfile" src="./assets/icons/logo-dark.png" alt="Logo" />
+          <img
+            id="imgProfile"
+            src="./assets/icons/logo-dark.png"
+            alt="Logo de Gabriel Moura"
+            rel="preload"
+          />
           <h1>Gabriel Moura</h1>
         </div>
         <div id="nav-options">
@@ -51,20 +56,32 @@
           <a id="linkContactTrans" href="#contact-article">Contato</a>
         </div>
         <div id="nav-button">
-          <button id="nav-button-language" onclick="toggleLanguage()">
+          <button
+            id="nav-button-language"
+            onclick="toggleLanguage()"
+            role="button"
+            aria-label="Alterna idioma"
+          >
             <img
               id="imgLanguage"
               src="./assets/icons/br.png"
-              alt="Brazil flag"
+              alt="Bandeira do Brazil"
+              rel="preload"
             />
             <span id="selectedLanguage">PT</span>
           </button>
-          <button id="nav-button-mode" onclick="toggleMode()">
+          <button
+            id="nav-button-mode"
+            onclick="toggleMode()"
+            role="button"
+            aria-label="Alterna modo claro/escuro"
+          >
             <span
               ><img
                 id="iconMode"
                 src="./assets/icons/night-icon.svg"
-                alt="Day icon"
+                alt="Ícone Sol"
+                rel="preload"
             /></span>
           </button>
         </div>
@@ -76,7 +93,11 @@
         <h1 id="headerCoverTrans">Olá, eu sou Gabriel Moura.</h1>
         <p id="textCoverTrans">Full Stack Developer</p>
         <div>
-          <button id="cover-button-resume">
+          <button
+            id="cover-button-resume"
+            role="button"
+            aria-label="Baixar currículo"
+          >
             <a
               id="buttonResumeCoverTrans"
               href="./assets/contents/Currículo_Gabriel_Moura_TI.pdf"
@@ -84,7 +105,11 @@
               >Baixar currículo</a
             >
           </button>
-          <button id="cover-button-contact">
+          <button
+            id="cover-button-contact"
+            role="button"
+            aria-label="Entrar em contato"
+          >
             <a id="buttonContactCoverTrans" href="#contact-article"
               >Entrar em contato</a
             >
@@ -98,7 +123,11 @@
         <header>
           <h1 id="headerAboutTrans">SOBRE</h1>
         </header>
-        <img src="./assets/icons/foto.png" alt="Gabriel Moura's photo" />
+        <img
+          src="./assets/icons/foto.png"
+          alt="Foto de Gabriel Moura"
+          rel="preload"
+        />
         <div>
           <p id="textOneAboutTrans">
             👋 Seja muito bem-vindo ao meu site! Deixa eu te contar um pouco
@@ -149,7 +178,11 @@
     <article id="works-article">
       <section id="works-section">
         <header>
-          <img src="./assets/contents/recycle.png" alt="Recycle Symbol" />
+          <img
+            src="./assets/contents/recycle.png"
+            alt="Símbolo de reciclagem"
+            rel="preload"
+          />
           <div id="works-section-header">
             <h1 id="headerOneWorksTrans">Trabalho</h1>
             <h2 id="headerTwoWorksTrans">de Conclusão de Curso</h2>
@@ -181,10 +214,18 @@
                 Clique no botão para saber mais! ⬇️
               </p>
             </div>
-            <img src="./assets/contents/3D-project.png" alt="3D project" />
+            <img
+              src="./assets/contents/3D-project.png"
+              alt="Projeto 3D"
+              rel="preload"
+            />
           </div>
           <span></span>
-          <button id="works-button-article">
+          <button
+            id="works-button-article"
+            role="button"
+            aria-label="Ver artigo completo"
+          >
             <a
               id="buttonWorksTrans"
               href="./assets/contents/Artigo_PDF_v0.3.pdf"
@@ -197,6 +238,7 @@
           id="image-logo"
           src="./assets/contents/logo-noggers.png"
           alt="Logo Noggers"
+          rel="preload"
         />
       </section>
     </article>
@@ -270,7 +312,7 @@
             <span class="imgCss"></span>
             <span class="imgJs"></span>
           </div>
-          <button>
+          <button role="button" aria-label="Ver projeto no GitHub">
             <a
               id="textTwoProjectsTrans"
               href="https://github.com/MouraGabriel53/SiteProfile"
@@ -288,7 +330,11 @@
             <span class="imgPython"></span>
           </div>
           <div class="cards-animation" id="projects-div-decoration-two"></div>
-          <button id="projects-div-decoration-two">
+          <button
+            id="projects-div-decoration-two"
+            role="button"
+            aria-label="Ver projeto no GitHub"
+          >
             <a
               id="textFourProjectsTrans"
               href="https://github.com/MouraGabriel53/AutomacaoPY_Arquivos"
@@ -301,7 +347,11 @@
           <div class="cards-animation" id="projects-text-three">
             <p id="textFiveProjectsTrans">Agrupador de links</p>
           </div>
-          <button id="projects-div-decoration-three">
+          <button
+            id="projects-div-decoration-three"
+            role="button"
+            aria-label="Ver projeto no GitHub"
+          >
             <a
               id="textSixProjectsTrans"
               href="https://github.com/MouraGabriel53/DevLinks"
@@ -362,7 +412,12 @@
                 maxlength="350"
               ></textarea>
             </div>
-            <button id="buttonTextContactsTrans" type="submit">
+            <button
+              id="buttonTextContactsTrans"
+              type="submit"
+              role="button"
+              aria-label="Enviar mensagem"
+            >
               Enviar mensagem
               <ion-icon id="button-icon" name="send"></ion-icon>
             </button>
@@ -371,19 +426,32 @@
         <div id="contact-social">
           <p id="textContactsTrans">🔔 Siga-me</p>
           <div id="div-social-links">
-            <a href="https://github.com/MouraGabriel53" target="_blank">
+            <a
+              href="https://github.com/MouraGabriel53"
+              target="_blank"
+              aria-label="GitHub"
+            >
               <ion-icon name="logo-github"></ion-icon>
             </a>
             <a
               href="https://www.linkedin.com/in/gabrielnmoura/"
               target="_blank"
+              aria-label="LinkedIn"
             >
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
-            <a href="mailto:contato.gabrielnmoura@gmail.com" target="_blank">
+            <a
+              href="mailto:contato.gabrielnmoura@gmail.com"
+              target="_blank"
+              aria-label="E-mail"
+            >
               <ion-icon name="mail-outline"></ion-icon
             ></a>
-            <a href="https://discord.gg/ZhjX5MjC" target="_blank">
+            <a
+              href="https://discord.gg/ZhjX5MjC"
+              target="_blank"
+              aria-label="Discord"
+            >
               <ion-icon name="logo-discord"></ion-icon
             ></a>
           </div>

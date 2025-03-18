@@ -279,7 +279,7 @@ function toggleLanguage() {
     inputEmail.setAttribute("placeholder", "Enter your best e-mail")
     textArea.setAttribute(
       "placeholder",
-      "Make a brief description of the project you want to carry out."
+      "Make a brief description of the project you want to carry out"
     )
   } else {
     imgLanguage.setAttribute("src", "./assets/icons/br.png")

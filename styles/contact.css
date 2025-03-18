@@ -1,13 +1,13 @@
 .contact-article {
   display: block;
   width: auto;
-  height: 1440px;
+  height: 1000px;
 }
 
 #contact-section {
   display: flex;
   width: 100%;
-  height: 1440px;
+  height: 1000px;
   flex-direction: column;
 
   background: var(--background-special) no-repeat center 100px / cover;
@@ -54,11 +54,11 @@
 #contact-content form {
   display: flex;
   width: 540px;
-  height: 464px;
+  height: 356px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 400px auto 0px auto;
+  margin: 475px auto 0px auto;
   gap: 22px;
 }
 
@@ -172,7 +172,7 @@ textarea:focus {
   display: block;
   width: fit-content;
   height: 112px;
-  margin: auto auto 100px auto;
+  margin: auto auto auto 100px;
 }
 
 #contact-social p {
