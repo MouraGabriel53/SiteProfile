@@ -26,7 +26,7 @@
   flex-direction: column;
   width: 450px;
   height: 240px;
-  margin: 350px 0px 0px 100px;
+  margin: 350px 0px 0px 0px;
 }
 
 #contact-content header h1 {
