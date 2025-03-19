@@ -4,7 +4,10 @@
 }
 
 #skills-section {
-  display: block;
+  display: flex;
+  width: 1440px;
+  height: 500px;
+  margin: auto;
 }
 
 #skills-section header {
@@ -12,6 +15,7 @@
   width: 548px;
   height: 155px;
   margin: 0px auto 0px 90px;
+  z-index: 1;
 }
 
 #skills-section header h1 {
