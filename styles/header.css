@@ -120,6 +120,7 @@
 
 #nav-button-mode span:hover {
   outline: 8px solid var(--highlight-color);
+  cursor: pointer;
 }
 
 .light #nav-button-mode span {

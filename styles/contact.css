@@ -121,6 +121,11 @@ textarea:focus {
   outline: 0;
 }
 
+.div-inputs input:hover,
+textarea:hover {
+  cursor: text;
+}
+
 #contact-content ion-icon {
   width: 20px;
   height: 20px;
@@ -214,6 +219,7 @@ textarea:focus {
 #contact-social a:hover {
   transition: 200ms;
   background: var(--highlight-color-contacts);
+  cursor: pointer;
 }
 
 @keyframes arrow-animation {
