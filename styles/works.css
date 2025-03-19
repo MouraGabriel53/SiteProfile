@@ -57,7 +57,7 @@
 
 #works-container {
   display: flex;
-  width: fit-content;
+  width: 1080px;
   height: 639px;
   flex-direction: column;
   align-items: center;

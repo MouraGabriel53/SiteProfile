@@ -16,7 +16,7 @@
 #contact-content {
   display: flex;
   width: 100%;
-  height: fit-content;
+  height: 965px;
   flex-direction: row;
 }
 
@@ -192,8 +192,8 @@ textarea:hover {
 
 #div-social-links {
   display: flex;
-  width: fit-content;
-  height: fit-content;
+  width: 325px;
+  height: 70px;
   align-content: center;
   margin-top: 5px;
   gap: 15px;
