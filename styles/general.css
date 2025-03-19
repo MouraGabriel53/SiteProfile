@@ -76,7 +76,7 @@
   --img-js: url(../assets/logo-languages/js-dark.svg);
 
   /*Background*/
-  --background: linear-gradient(0deg, #C4BFB2 0%, #DFDCD5 50%, #E4E2DC 100%);
+  --background: linear-gradient(0deg, #c4bfb2 0%, #dfdcd5 50%, #e4e2dc 100%);
   --about-background: url(../assets/background/quadro-preto.png);
 
   /*Text*/
@@ -97,6 +97,10 @@
   --button-text-special: rgba(22, 21, 20, 1);
 
   --highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+.language-EN {
+  --img-project-01: url(../assets/contents/project-01-en.png);
 }
 
 html {
