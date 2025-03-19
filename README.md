@@ -5,7 +5,7 @@
   <a href="#-about-the-website">About the Website</a>&nbsp;|&nbsp;
   <a href="#-sections-of-the-website">Sections</a>&nbsp;|&nbsp;
   <a href="#-theme-modes">Theme Modes</a>&nbsp;|&nbsp;
-  <a href="#-available-languages">Available Languages</a>&nbsp;&nbsp;&nbsp;|&nbsp;
+  <a href="#-available-languages">Available Languages</a>&nbsp;|&nbsp;
   <a href="#-license">License</a>&nbsp;|&nbsp;
   <a href="#-project-status">Project Status</a>&nbsp;|&nbsp;
   <a href="#-test">Test</a>
