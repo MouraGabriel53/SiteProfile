@@ -7,3 +7,6 @@ elemScrollChildren.forEach((item) => {
   elemDuplicate.setAttribute("aria-hidden", "true")
   elemScrollContainer.appendChild(elemDuplicate)
 })
+
+const elementScroll = document.getElementById("skills-container")
+elementScroll.style.animationPlayState = "paused"
