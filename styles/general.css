@@ -99,10 +99,6 @@
   --highlight-color: rgba(0, 0, 0, 0.1);
 }
 
-.language-EN {
-  --img-project-01: url(../assets/contents/project-01-en.png);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -110,6 +106,9 @@ html {
 body {
   background: var(--background);
   overflow-x: hidden;
+}
+.language-EN {
+  --img-project-01: url(../assets/contents/project-01-en.png);
 }
 
 .animation-hidden {

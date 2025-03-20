@@ -10,7 +10,8 @@
   display: flex;
   width: 1053px;
   height: 720px;
-  margin: auto;
+  flex-direction: column;
+  margin: 0px auto;
 }
 
 #about-section header {
@@ -19,6 +20,8 @@
   height: 192px;
   position: relative;
   top: -97px;
+  left: -100px
+
 }
 
 #about-section header h1 {
@@ -38,7 +41,8 @@
   width: 1053px;
   height: 480px;
   gap: 120px;
-  margin: auto;
+  position: relative;
+  top: -80px;
 }
 
 #about-content img {

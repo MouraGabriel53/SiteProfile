@@ -4,9 +4,9 @@
 }
 
 #skills-section {
-  display: flex;
+  display: block;
   width: 1440px;
-  height: 500px;
+  height: 655px;
   margin: auto;
 }
 
@@ -14,7 +14,6 @@
   display: block;
   width: 548px;
   height: 155px;
-  margin: 0px auto 0px 90px;
   z-index: 1;
 }
 
