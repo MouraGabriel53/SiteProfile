@@ -111,16 +111,78 @@ body {
   --img-project-01: url(../assets/contents/project-01-en.png);
 }
 
+/*All animations*/
 .animation-hidden {
   opacity: 0;
-  /* filter: blur(10px);
-  transform: translateX(-100%);
-  transition: all 1.5s; */
+  filter: blur(15px);
+  transition: 2s ease-in-out;
 }
 
 .animation-show {
   opacity: 1;
-  /* filter: blur(0);
+  filter: blur(0);
+  transition: 2s ease-in-out;
+}
+
+/*About animation*/
+.animation-hidden #img-photo {
+  transform: translateX(-50%);
+  transition: 2s ease-in-out;
+}
+
+.animation-show #img-photo {
   transform: translateX(0);
-  transition: all 1.5s; */
+  transition: 2s ease-in-out;
+}
+
+.animation-hidden #div-text {
+  transform: translateX(50%);
+  transition: 2s ease-in-out;
+}
+
+.animation-show #div-text {
+  transform: translateX(0);
+  transition: 2s ease-in-out;
+}
+
+/*Projects animation*/
+.animation-hidden #projects-one {
+  transform: translateX(10%);
+  transition: 10s ease-in-out;
+}
+
+.animation-show #projects-one {
+  transform: translateX(-5%);
+  transition: 10s ease-in-out;
+}
+
+.animation-hidden #projects-two {
+  transform: translateX(-10%);
+  transition: 10s ease-in-out;
+}
+
+.animation-show #projects-two {
+  transform: translateX(5%);
+  transition: 10s ease-in-out;
+}
+
+.animation-hidden #projects-three {
+  transform: translateX(10%);
+  transition: 10s ease-in-out;
+}
+
+.animation-show #projects-three {
+  transform: translateX(-5%);
+  transition: 10s ease-in-out;
+}
+
+/*Contacts animation*/
+.animation-hidden form {
+  transform: translateX(50%);
+  transition: 2s ease-in-out;
+}
+
+.animation-show form {
+  transform: translateX(0);
+  transition: 2s ease-in-out;
 }

@@ -126,17 +126,18 @@
     </article>
     <!--About-->
     <article id="about-article">
-      <section id="about-section" class="animation-hidden">
+      <section id="about-section">
         <header>
           <h1 id="headerAboutTrans">SOBRE</h1>
         </header>
-        <div id="about-content">
+        <div id="about-content" class="animation-hidden">
           <img
+            id="img-photo"
             src="assets/icons/foto.png"
             alt="Foto de Gabriel Moura"
             rel="preload"
           />
-          <div>
+          <div id="div-text">
             <p id="textOneAboutTrans">
               👋 Seja muito bem-vindo ao meu site! Deixa eu te contar um pouco
               sobre mim.
@@ -254,21 +255,14 @@
     </article>
     <!--Skills-->
     <article id="skills-article">
-      <section id="skills-section" class="animation-hidden">
+      <section id="skills-section">
         <header>
           <h1 id="headerOneSkillsTrans">Linguagens</h1>
           <h2 id="headerTwoSkillsTrans">mais utilizadas</h2>
         </header>
         <div id="skills-arrows">
-          <ion-icon name="chevron-back-outline"
-            onclick="translateSkills('left')"
-            ></ion-icon>
-          </ion-icon>
-          <ion-icon
-            name="chevron-forward-outline"
-            onclick="translateSkills('right')"
-          >
-          </ion-icon>
+          <ion-icon name="chevron-back-outline"></ion-icon>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
         </div>
         <div id="skills-scroll">
           <div id="skills-container">
@@ -404,8 +398,8 @@
     </article>
     <!--Contacts-->
     <article class="contact-article">
-      <section id="contact-section">
-        <div id="contact-content" class="animation-hidden">
+      <section id="contact-section" class="animation-hidden">
+        <div id="contact-content">
           <header id="contact-article">
             <h1 id="headerOneContactsTrans">Bora</h1>
             <h2 id="headerTwoContactsTrans">fazer um projeto juntos?</h2>

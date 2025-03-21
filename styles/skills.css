@@ -60,7 +60,7 @@
 #skills-arrows ion-icon {
   width: 50px;
   height: 50px;
-  color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.3);
 
   border-radius: 50%;
 }
@@ -73,12 +73,13 @@
 
 #skills-container {
   display: flex;
-  width: max-content;
+  width: 1440px;
   height: 450px;
   align-items: center;
   gap: 16px;
 
-  animation: skills-scroll 25s linear infinite;
+  /* animation: skills-scroll 100s linear infinite;
+  will-change: transform; */
 }
 
 #skills-container div {

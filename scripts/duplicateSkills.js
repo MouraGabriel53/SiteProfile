@@ -9,4 +9,4 @@ elemScrollChildren.forEach((item) => {
 })
 
 const elementScroll = document.getElementById("skills-container")
-elementScroll.style.animationPlayState = "paused"
+
