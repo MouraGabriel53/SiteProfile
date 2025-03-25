@@ -1,13 +1,14 @@
 <h1 align="center">🌐 My Profile Website - Gabriel Moura</h1>
 
 <p align="center">
-  <a href="#-access-the-website">Access the Website</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-about-the-website">About the Website</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-sections-of-the-website">Sections</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-theme-modes">Theme Modes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-available-languages">Available Languages</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project-status">Project Status</a>
+  <a href="#-access-the-website">Access the Website</a>&nbsp;|&nbsp;
+  <a href="#-about-the-website">About the Website</a>&nbsp;|&nbsp;
+  <a href="#-sections-of-the-website">Sections</a>&nbsp;|&nbsp;
+  <a href="#-theme-modes">Theme Modes</a>&nbsp;|&nbsp;
+  <a href="#-available-languages">Available Languages</a>&nbsp;|&nbsp;
+  <a href="#-license">License</a>&nbsp;|&nbsp;
+  <a href="#-project-status">Project Status</a>&nbsp;|&nbsp;
+  <a href="#-test">Test</a>
 </p>
 
 ## 🌍 Access the Website
@@ -37,4 +38,9 @@ Currently, the website is under development and may receive frequent updates.
 ## ⚖ License
 [MIT LICENSE](LICENSE)
 
+## 🙃 Test
+
+```bash 
+git clone https://github.com/MouraGabriel53/SiteProfile.git
+```
 ---

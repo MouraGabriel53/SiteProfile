@@ -16,7 +16,11 @@
 
   // workbench
   "workbench.editor.enablePreview": false,
+<<<<<<< HEAD
   "workbench.iconTheme": "material-icon-theme",
+=======
+  "workbench.iconTheme": "symbols",
+>>>>>>> c10188a05541d51d0de854c8003001ba184ab59a
   "workbench.colorTheme": "GitHub Dark Default",
 
   // prettier
